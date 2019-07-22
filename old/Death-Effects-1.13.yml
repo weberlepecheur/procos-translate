@@ -3,7 +3,7 @@ Death-Effects:
   Fill-Empty-Slots: true
   Go-Back-Item: true
 
-  Material: WITHER_SKELETON_SKULL
+  Material: SKELETON_SKULL
   Amount: 1
   Slot: 14
   Displayname: "&bEffets de mort"
