@@ -1,13 +1,13 @@
 Death-Effects:
-    Enable: true
-    Fill-Empty-Slots: true
-    Go-Back-Item: true
+  Enable: true
+  Fill-Empty-Slots: true
+  Go-Back-Item: true
 
-    Material: WITHER_SKELETON_SKULL
-    Amount: 1
-    Slot: 14
-    Displayname: "&bEffets de mort"
-    Lore:
+  Material: WITHER_SKELETON_SKULL
+  Amount: 1
+  Slot: 14
+  Displayname: "&bEffets de mort"
+  Lore:
     - ""
     - "&7Votre mort sera désormais pleurée"
     - "&7avec un magnifique hommage grâce à"
@@ -18,210 +18,257 @@ Death-Effects:
     - "&7Clic gauche pour ouvrir le menu des effets de mort"
     - "&7Clic droit pour retirer votre effet de mort actuelle !"
 
-    Inventory:
-        Title: "Effets de mort"
-        Size: 54
+  Menu:
+    Title: "Effets de mort"
+    Size: 54
 
-        Bloody-Death:
-            Enable: true
-            Name: "&bMort ensanglantée"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+  Cosmetics:
+    Bloody-Death:
+      Enable: true
+      Name: "&bMort ensanglantée"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: REDSTONE
-            Amount: 1
-            Slot: 10
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Laissez le sang de votre corps exploser"
-            - "&7de colère lorsque vous mourrez !"
+      Material: REDSTONE
+      Amount: 1
+      Slot: 10
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Laissez le sang de votre corps exploser"
+        - "&7de colère lorsque vous mourrez !"
 
-        Candy-Cane-Remains:
-            Enable: true
-            Name: "&bVestiges de sucre d'orge"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Candy-Cane-Remains:
+      Enable: true
+      Name: "&bVestiges de sucre d'orge"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: CACTUS_GREEN
-            Amount: 1
-            Slot: 11
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Partagez votre dernier bonbon à"
-            - "&7votre mort !"
+      Material: CACTUS_GREEN
+      Amount: 1
+      Slot: 11
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Partagez votre dernier bonbon à"
+        - "&7votre mort !"
 
-        Confetti-Death:
-            Enable: true
-            Name: "&bMort festive"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Confetti-Death:
+      Enable: true
+      Name: "&bMort festive"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: MELON_SEEDS
-            Amount: 1
-            Slot: 12
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Quelqu'un célèbre votre mort."
-            - "&7Attendez..."
-            - "&7QUOI ?!"
+      Material: MELON_SEEDS
+      Amount: 1
+      Slot: 12
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Quelqu'un célèbre votre mort."
+        - "&7Attendez..."
+        - "&7QUOI ?!"
 
-        Enchanted-Death:
-            Enable: true
-            Name: "&bMort enchantée"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Enchanted-Death:
+      Enable: true
+      Name: "&bMort enchantée"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: BOOK
-            Amount: 1
-            Slot: 13
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Une autre personne intelligente"
-            - "&7vient de mourir."
+      Material: BOOK
+      Amount: 1
+      Slot: 13
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Une autre personne intelligente"
+        - "&7vient de mourir."
 
-        Fall-Of-The-Frost-Lord:
-            Enable: true
-            Name: "&bLa chute du seigneur du givre"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Fall-Of-The-Frost-Lord:
+      Enable: true
+      Name: "&bLa chute du seigneur du givre"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: SNOWBALL
-            Amount: 1
-            Slot: 14
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Rah, ça va..."
-            - "&7...l'été ne dure que 3 mois !"
+      Material: SNOWBALL
+      Amount: 1
+      Slot: 14
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Rah, ça va..."
+        - "&7...l'été ne dure que 3 mois !"
 
-        Flame-Death:
-            Enable: true
-            Name: "&bMort enflammée"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Flame-Death:
+      Enable: true
+      Name: "&bMort enflammée"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: BLAZE_POWDER
-            Amount: 1
-            Slot: 15
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Laissez votre mort brûler"
-            - "&7en pièce."
+      Material: BLAZE_POWDER
+      Amount: 1
+      Slot: 15
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Laissez votre mort brûler"
+        - "&7en pièce."
 
-        Last-Love:
-            Enable: true
-            Name: "&bDernier amour"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Last-Love:
+      Enable: true
+      Name: "&bDernier amour"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: ROSE_RED
-            Amount: 1
-            Slot: 16
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Tu resteras toujours dans mon coeur,"
-            - "&7peu-importe ce que tu m'as fais."
+      Material: ROSE_RED
+      Amount: 1
+      Slot: 16
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Tu resteras toujours dans mon coeur,"
+        - "&7peu-importe ce que tu m'as fais."
 
-        Lightning-Death:
-            Enable: true
-            Name: "&bMort éléctrique"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Lightning-Death:
+      Enable: true
+      Name: "&bMort éléctrique"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: ROSE_RED
-            Amount: 1
-            Slot: 19
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Montrons à tout le monde comment le roi"
-            - "&7est réellement mort !"
+      Material: ROSE_RED
+      Amount: 1
+      Slot: 19
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Montrons à tout le monde comment le roi"
+        - "&7est réellement mort !"
 
-        Lava-Death:
-            Enable: true
-            Name: "&bMort de lave"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Lava-Death:
+      Enable: true
+      Name: "&bMort de lave"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: LAVA_BUCKET
-            Amount: 1
-            Slot: 20
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7OUH OUH OUUUUH TROP, BEAUCOUP TROP CHAUD"
+      Material: LAVA_BUCKET
+      Amount: 1
+      Slot: 20
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7OUH OUH OUUUUH TROP, BEAUCOUP TROP CHAUD"
 
-        Musical-Death:
-            Enable: true
-            Name: "&bMort musicale"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Magical-Death:
+      Enable: true
+      Name: "&bMagical Death"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: NOTE_BLOCK
-            Amount: 1
-            Slot: 21
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Votre dernière chanson avant la mort,"
-            - "&7les prochaines seront faîtes avec Mozart."
+      Material: PURPLE_DYE
+      Amount: 1
+      Slot: 21
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Cast the last spell you have."
 
-        Shadow-Death:
-            Enable: true
-            Name: "&bMort sombre"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Musical-Death:
+      Enable: true
+      Name: "&bMort musicale"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: COAL
-            Amount: 1
-            Slot: 22
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Un peu de fumée et t'es"
-            - "&7mort !"
+      Material: NOTE_BLOCK
+      Amount: 1
+      Slot: 22
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Votre dernière chanson avant la mort,"
+        - "&7les prochaines seront faîtes avec Mozart."
 
-        Wet-Death:
-            Enable: true
-            Name: "&bMort mouillée"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Shadow-Death:
+      Enable: true
+      Name: "&bMort sombre"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: WATER_BUCKET
-            Amount: 1
-            Slot: 23
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Une autre pauvre personne"
-            - "&7est morte."
+      Material: COAL
+      Amount: 1
+      Slot: 23
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Un peu de fumée et t'es"
+        - "&7mort !"
+
+    Sparkly-Death:
+      Enable: true
+      Name: "&bSparkly Death"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: FIREWORK_ROCKET
+      Amount: 1
+      Slot: 24
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Die in a nice way."
+
+    Wet-Death:
+      Enable: true
+      Name: "&bMort mouillée"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: WATER_BUCKET
+      Amount: 1
+      Slot: 25
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Une autre pauvre personne"
+        - "&7est morte."
