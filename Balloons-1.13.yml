@@ -1,0 +1,172 @@
+Balloons:
+    Enable: true
+    Fill-Empty-Slots: true
+    Go-Back-Item: true
+
+    Material: LEAD
+    Amount: 1
+    Slot: 16
+    Displayname: "&bBallons"
+    Lore:
+    - ""
+    - "&7Les ballons sont de collection"
+    - "&7Ils flottent au dessus de la tête"
+    - "&7partout où vous allez."
+    - ""
+    - "&3Vous possédez &b(current)&7/&b(maximum)"
+    - ""
+    - "&7Clic gauche ouvrir le menu des ballons !"
+    - "&7Clic droit pour retirer votre ballon !"
+
+    Inventory:
+        Title: "Ballons"
+        Size: 54
+
+        Calf:
+            Enable: true
+            Name: "&bBallon veau"
+            Can-Be-Found: true
+            Purchasable: true
+            Cost: 2000
+            Rarity: COMMUN
+
+            Material: ROSE_RED
+            Amount: 1
+            Slot: 10
+            Displayname: "(name)"
+            Lore:
+            - ""
+            - "&7Lait gratuit pour tout le monde !"
+
+        Mini-Pig:
+            Enable: true
+            Name: "&bBallon Mini-Pig"
+            Can-Be-Found: true
+            Purchasable: true
+            Cost: 2000
+            Rarity: COMMUN
+
+            Material: COOKED_PORKCHOP
+            Amount: 1
+            Slot: 11
+            Displayname: "(name)"
+            Lore:
+            - ""
+            - "&7Qui veut d'un cochon en vol"
+            - "&7stationnaire autour de lui ?"
+
+        Puppy:
+            Enable: true
+            Name: "&bBallon chiot"
+            Can-Be-Found: true
+            Purchasable: true
+            Cost: 2000
+            Rarity: COMMUN
+
+            Material: BONE
+            Amount: 1
+            Slot: 12
+            Displayname: "(name)"
+            Lore:
+            - ""
+            - "&7Wooff wooff..."
+
+        Kitten:
+            Enable: true
+            Name: "&bBallon chaton"
+            Can-Be-Found: true
+            Purchasable: true
+            Cost: 2000
+            Rarity: COMMUN
+
+            Material: COD
+            Amount: 1
+            Slot: 13
+            Displayname: "(name)"
+            Lore:
+            - ""
+            - "&7Un mignon petit chaton plane."
+
+        Tiny-Villager:
+            Enable: true
+            Name: "&bBallon villageois"
+            Can-Be-Found: true
+            Purchasable: true
+            Cost: 2000
+            Rarity: COMMUN
+
+            Material: EMERALD
+            Amount: 1
+            Slot: 14
+            Displayname: "(name)"
+            Lore:
+            - ""
+            - "&7Votre propre marché flottant !"
+
+        Guardian:
+            Enable: true
+            Name: "&bBallon guardien"
+            Can-Be-Found: true
+            Purchasable: true
+            Cost: 2000
+            Rarity: COMMUN
+
+            Material: PRISMARINE_SHARD
+            Amount: 1
+            Slot: 15
+            Displayname: "(name)"
+            Lore:
+            - ""
+            - "&7Attention à ce qu'il ne vous gifle pas."
+
+        Pumpkin:
+            Enable: true
+            Name: "&bBallon citrouille"
+            Can-Be-Found: true
+            Purchasable: true
+            Cost: 2000
+            Rarity: COMMUN
+
+            Material: PUMPKIN
+            Amount: 1
+            Slot: 16
+            Displayname: "(name)"
+            Lore:
+            - ""
+            - "&7Un costume d'Halloween"
+            - "&7digne de ce nom !"
+
+        Disco:
+            Enable: true
+            Name: "&bBallon disco"
+            Can-Be-Found: true
+            Purchasable: true
+            Cost: 2000
+            Rarity: RARE
+
+            Material: BEACON
+            Amount: 1
+            Slot: 19
+            Displayname: "(name)"
+            Lore:
+            - ""
+            - "&7Pourquoi avoir juste une couleur"
+            - "&7quand on peut les avoir toutes ?"
+
+        Egg:
+            Enable: true
+            Name: "&bBallon oeuf"
+            Can-Be-Found: true
+            Purchasable: true
+            Cost: 2000
+            Rarity: COMMUN
+
+            Material: DRAGON_EGG
+            Amount: 1
+            Slot: 20
+            Displayname: "(name)"
+            Lore:
+            - ""
+            - "&7Cet oeuf a été volé d'une autre "
+            - "&7dimension ! Et l'enderdragon ne"
+            - "&7le sait pas !"

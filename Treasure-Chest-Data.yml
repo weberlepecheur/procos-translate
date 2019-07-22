@@ -1,0 +1,7 @@
+Treasure-Chests:
+  '1':
+    Location: evenement:115.0:65.0:13.0:0:0
+    Chest-Data: 0
+  '2':
+    Location: world:-179.0:68.0:725.0:0:0
+    Chest-Data: 0
