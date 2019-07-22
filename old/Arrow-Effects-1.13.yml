@@ -24,166 +24,166 @@ Arrow-Effects:
 
   Cosmetics:
     Bloody-Arrows:
-        Enable: true
-        Name: "&bFlèches ensanglantées"
-        Can-Be-Found: true
-        Purchasable: true
-        Cost: 2000
-        Rarity: COMMON
+      Enable: true
+      Name: "&bFlèches ensanglantées"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-        Material: REDSTONE
-        Amount: 1
-        Slot: 10
-        Page: 1
-        Displayname: "(name)"
-        Lore:
-          - ""
-          - "&7Des flèches trempées dans du sang empoisonné"
-          - "&7pour donner à vos ennemis"
-          - "&4une mort douloureuse."
+      Material: REDSTONE
+      Amount: 1
+      Slot: 10
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Des flèches trempées dans du sang empoisonné"
+        - "&7pour donner à vos ennemis"
+        - "&4une mort douloureuse."
 
     Candy-Cane-Arrows:
-        Enable: true
-        Name: "&bFlèches de sucre d'orge"
-        Can-Be-Found: true
-        Purchasable: true
-        Cost: 2000
-        Rarity: COMMON
+      Enable: true
+      Name: "&bFlèches de sucre d'orge"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-        Material: CACTUS_GREEN
-        Amount: 1
-        Slot: 11
-        Page: 1
-        Displayname: "(name)"
-        Lore:
-          - ""
-          - "&7Vous avez beaucoup trop de bonbons ? Laissez nous"
-          - "&7en donner à vos ennemis."
+      Material: CACTUS_GREEN
+      Amount: 1
+      Slot: 11
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Vous avez beaucoup trop de bonbons ? Laissez nous"
+        - "&7en donner à vos ennemis."
 
     Confetti-Arrows:
-        Enable: true
-        Name: "&bFlèches de confettis"
-        Can-Be-Found: true
-        Purchasable: true
-        Cost: 2000
-        Rarity: COMMON
+      Enable: true
+      Name: "&bFlèches de confettis"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-        Material: MELON_SEEDS
-        Amount: 1
-        Slot: 12
-        Page: 1
-        Displayname: "(name)"
-        Lore:
-          - ""
-          - "&7On ne peut pas stopper ces incroyables couleurs"
-          - "&7qui planent dans les airs."
+      Material: MELON_SEEDS
+      Amount: 1
+      Slot: 12
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7On ne peut pas stopper ces incroyables couleurs"
+        - "&7qui planent dans les airs."
 
     Enchanted-Arrows:
-        Enable: true
-        Name: "&bFlèches enchantées"
-        Can-Be-Found: true
-        Purchasable: true
-        Cost: 2000
-        Rarity: COMMON
+      Enable: true
+      Name: "&bFlèches enchantées"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-        Material: BOOK
-        Amount: 1
-        Slot: 13
-        Page: 1
-        Displayname: "(name)"
-        Lore:
-          - ""
-          - "&7Ces flèches viennent d'un"
-          - "&7archer talentueux"
+      Material: BOOK
+      Amount: 1
+      Slot: 13
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Ces flèches viennent d'un"
+        - "&7archer talentueux"
 
     Flame-Arrows:
-        Enable: true
-        Name: "&bFlèches enflammées"
-        Can-Be-Found: true
-        Purchasable: true
-        Cost: 2000
-        Rarity: COMMON
+      Enable: true
+      Name: "&bFlèches enflammées"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-        Material: BLAZE_POWDER
-        Amount: 1
-        Slot: 14
-        Page: 1
-        Displayname: "(name)"
-        Lore:
-          - ""
-          - "&7Surprenez quelqu'un avec une flèche"
-          - "&7enflammée qui traversera leur coeur."
+      Material: BLAZE_POWDER
+      Amount: 1
+      Slot: 14
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Surprenez quelqu'un avec une flèche"
+        - "&7enflammée qui traversera leur coeur."
 
     Frost-Lord-Arrows:
-        Enable: true
-        Name: "&bFlèches du seigneur du givre"
-        Can-Be-Found: true
-        Purchasable: true
-        Cost: 2000
-        Rarity: COMMON
+      Enable: true
+      Name: "&bFlèches du seigneur du givre"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-        Material: SNOWBALL
-        Amount: 1
-        Slot: 15
-        Page: 1
-        Displayname: "(name)"
-        Lore:
-          - ""
-          - "&7Apportez un souffle d'Hiver dans"
-          - "&7le vent de leur passage."
+      Material: SNOWBALL
+      Amount: 1
+      Slot: 15
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Apportez un souffle d'Hiver dans"
+        - "&7le vent de leur passage."
 
     Green-Arrows:
-        Enable: true
-        Name: "&bFlèches vertes"
-        Can-Be-Found: true
-        Purchasable: true
-        Cost: 2000
-        Rarity: COMMON
+      Enable: true
+      Name: "&bFlèches vertes"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-        Material: EMERALD
-        Amount: 1
-        Slot: 16
-        Page: 1
-        Displayname: "(name)"
-        Lore:
-          - ""
-          - "&cLe rouge est égale à l'arrêt..."
-          - "&aLe vert est égal à la marche ?"
+      Material: EMERALD
+      Amount: 1
+      Slot: 16
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&cLe rouge est égale à l'arrêt..."
+        - "&aLe vert est égal à la marche ?"
 
     Lava-Arrows:
-        Enable: true
-        Name: "&bFlèches de lave"
-        Can-Be-Found: true
-        Purchasable: true
-        Cost: 2000
-        Rarity: COMMON
+      Enable: true
+      Name: "&bFlèches de lave"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-        Material: LAVA_BUCKET
-        Amount: 1
-        Slot: 19
-        Page: 1
-        Displayname: "(name)"
-        Lore:
-          - ""
-          - "&7OOOOOOOOUH TROOOOOP CHAUD !!!!"
+      Material: LAVA_BUCKET
+      Amount: 1
+      Slot: 19
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7OOOOOOOOUH TROOOOOP CHAUD !!!!"
 
     Love-Arrows:
-        Enable: true
-        Name: "&bFlèches d'amour"
-        Can-Be-Found: true
-        Purchasable: true
-        Cost: 2000
-        Rarity: COMMON
+      Enable: true
+      Name: "&bFlèches d'amour"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-        Material: ROSE_RED
-        Amount: 1
-        Slot: 20
-        Page: 1
-        Displayname: "(name)"
-        Lore:
-          - ""
-          - "&7Donnez de l'amour à vos"
-          - "&7ennemis !"
+      Material: ROSE_RED
+      Amount: 1
+      Slot: 20
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Donnez de l'amour à vos"
+        - "&7ennemis !"
 
     Magical-Arrows:
       Enable: true
@@ -203,55 +203,55 @@ Arrow-Effects:
         - "&7Maybe you are the magician here?"
 
     Music-Arrows:
-        Enable: true
-        Name: "&bFlèches musicales"
-        Can-Be-Found: true
-        Purchasable: true
-        Cost: 2000
-        Rarity: COMMON
+      Enable: true
+      Name: "&bFlèches musicales"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-        Material: NOTE_BLOCK
-        Amount: 1
-        Slot: 21
-        Page: 1
-        Displayname: "(name)"
-        Lore:
-          - ""
-          - "&7On a installé des haut-parleurs sur"
-          - "&7ces flèches, Cool hein ?"
+      Material: NOTE_BLOCK
+      Amount: 1
+      Slot: 21
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7On a installé des haut-parleurs sur"
+        - "&7ces flèches, Cool hein ?"
 
     Rain-Arrows:
-        Enable: true
-        Name: "&bFlèches de pluie"
-        Can-Be-Found: true
-        Purchasable: true
-        Cost: 2000
-        Rarity: COMMON
+      Enable: true
+      Name: "&bFlèches de pluie"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-        Material: WATER_BUCKET
-        Amount: 1
-        Slot: 22
-        Displayname: "(name)"
-        Lore:
-        - ""
-        - "&7Des flèches qui bénissent la pluie"
-        - "&7en Afrique"
+      Material: WATER_BUCKET
+      Amount: 1
+      Slot: 22
+      Displayname: "(name)"
+      Lore:
+      - ""
+      - "&7Des flèches qui bénissent la pluie"
+      - "&7en Afrique"
 
     Shadow-Arrows:
-        Enable: true
-        Name: "&bFlèches sombres"
-        Can-Be-Found: true
-        Purchasable: true
-        Cost: 2000
-        Rarity: COMMON
+      Enable: true
+      Name: "&bFlèches sombres"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-        Material: COAL
-        Amount: 1
-        Slot: 23
-        Displayname: "(name)"
-        Lore:
-        - ""
-        - "&7Laissez votre ombre suivre votre flèche"
+      Material: COAL
+      Amount: 1
+      Slot: 23
+      Displayname: "(name)"
+      Lore:
+      - ""
+      - "&7Laissez votre ombre suivre votre flèche"
 
     Sparkly-Arrows:
       Enable: true
