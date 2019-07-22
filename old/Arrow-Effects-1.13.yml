@@ -19,8 +19,8 @@ Arrow-Effects:
     - "&7Clic droit pour déséquiper ce type de cosmétique !"
 
   Menu:
-      Title: "Effets de flèches"
-      Size: 54
+    Title: "Effets de flèches"
+    Size: 54
 
   Cosmetics:
     Bloody-Arrows:
@@ -212,7 +212,7 @@ Arrow-Effects:
 
       Material: NOTE_BLOCK
       Amount: 1
-      Slot: 21
+      Slot: 22
       Page: 1
       Displayname: "(name)"
       Lore:
@@ -230,7 +230,8 @@ Arrow-Effects:
 
       Material: WATER_BUCKET
       Amount: 1
-      Slot: 22
+      Slot: 23
+      Page: 1
       Displayname: "(name)"
       Lore:
       - ""
@@ -247,7 +248,8 @@ Arrow-Effects:
 
       Material: COAL
       Amount: 1
-      Slot: 23
+      Slot: 24
+      Page: 1
       Displayname: "(name)"
       Lore:
       - ""
