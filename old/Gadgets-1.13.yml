@@ -1,321 +1,358 @@
 Gadgets:
-    Enable: true
-    Fill-Empty-Slots: true
-    Go-Back-Item: true
+  Enable: true
+  Fill-Empty-Slots: true
+  Go-Back-Item: true
 
-    Material: PISTON
-    Amount: 1
-    Slot: 30
-    Displayname: "&bGadgets"
-    Lore:
-    - ""
-    - "&7Toutes sortes de gadgets loufoques"
-    - "&7pour l'utiliser sur vos amis et vos"
-    - "&7ennemis."
-    - ""
-    - "&7Clic gauche pour ouvrir le menu des gadgets"
-    - "&7Clic droit pour retirer votre gadget actuel"
+  Material: PISTON
+  Amount: 1
+  Slot: 30
+  Displayname: "&bGadgets"
+  Lore:
+  - ""
+  - "&7Toutes sortes de gadgets loufoques"
+  - "&7pour l'utiliser sur vos amis et vos"
+  - "&7ennemis."
+  - ""
+  - "&7Clic gauche pour ouvrir le menu des gadgets"
+  - "&7Clic droit pour retirer votre gadget actuel"
 
-    Inventory:
-        Title: "Gadgets"
-        Size: 45
+  Menu:
+    Title: "Gadgets"
+    Size: 45
 
-        Ethereal-Pearl:
-            Enable: true
-            Name: "&bPerle céleste"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 200
-            Rarity: COMMON
-            Cooldown: 5.0
-            Ammo:
-                Purchase-Amount: 10
-                Infinity: false
+  Cosmetics:
+    Ethereal-Pearl:
+      Enable: true
+      Name: "&bPerle céleste"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 200
+      Rarity: COMMON
+      Cooldown: 5.0
+      Ammo:
+        Purchasable: true
+        Purchase-Amount: 10
+        Cost: 100
+        Infinity: false
 
-            Material: ENDER_PEARL
-            Amount: 1
-            Slot: 10
-            Displayname: "&b(ammo) (name)"
-            Lore:
-            - ""
-            - "&7Les enderman ne vont pas être contents"
-            - "&7une fois qu'ils découvreront que nous avons volé"
-            - "&7leurs perles de l'Ender"
-            - ""
-            - "&bVous en avez &7(ammo)"
-            - ""
-            - "&9Fabricable pour &e(cost) CosmeSkills&9!"
+      Material: ENDER_PEARL
+      Amount: 1
+      Slot: 10
+      Page: 1
+      Displayname: "&b(ammo) (name)"
+      Lore:
+        - ""
+        - "&7Les enderman ne vont pas être contents"
+        - "&7une fois qu'ils découvreront que nous avons volé"
+        - "&7leurs perles de l'Ender"
+        - ""
+        - "&bVous en avez &7(ammo)"
+        - ""
+        - "&9Fabricable pour &e(cost) CosmeSkills&9!"
 
-        Fireworks:
-            Enable: true
-            Name: "&bFeux d'artifices"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 100
-            Rarity: COMMON
-            Cooldown: 1.0
-            Ammo:
-                Purchase-Amount: 10
-                Infinity: false
+    Fireworks:
+      Enable: true
+      Name: "&bFeux d'artifices"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 100
+      Rarity: COMMON
+      Cooldown: 1.0
+      Ammo:
+        Purchasable: true
+        Purchase-Amount: 10
+        Cost: 100
+        Infinity: false
 
-            Material: FIREWORK_ROCKET
-            Amount: 1
-            Slot: 11
-            Displayname: "&b(ammo) (name)"
-            Lore:
-            - ""
-            - "&7Avez vous besoin de célébrer"
-            - "&7quelque chose ? Ces feux d'artifices"
-            - "&7devrait faire l'affaire !"
-            - ""
-            - "&bVous en avez &7(ammo)"
-            - ""
-            - "&9Fabricable pour &e(cost) CosmeSkills&9!"
+      Material: FIREWORK_ROCKET
+      Amount: 1
+      Slot: 11
+      Page: 1
+      Displayname: "&b(ammo) (name)"
+      Lore:
+        - ""
+        - "&7Avez vous besoin de célébrer"
+        - "&7quelque chose ? Ces feux d'artifices"
+        - "&7devrait faire l'affaire !"
+        - ""
+        - "&bVous en avez &7(ammo)"
+        - ""
+        - "&9Fabricable pour &e(cost) CosmeSkills&9!"
 
-        TNT:
-            Enable: true
-            Name: "&bTNT"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 200
-            Rarity: COMMON
-            Cooldown: 3.0
-            Ammo:
-                Purchase-Amount: 10
-                Infinity: false
+    TNT:
+      Enable: true
+      Name: "&bTNT"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 200
+      Rarity: COMMON
+      Cooldown: 3.0
+      Ammo:
+        Purchasable: true
+        Purchase-Amount: 10
+        Cost: 100
+        Infinity: false
 
-            Material: TNT
-            Amount: 1
-            Slot: 12
-            Displayname: "&b(ammo) (name)"
-            Lore:
-            - ""
-            - "&7Lancez de la dynamite sur les personnes"
-            - "&7que vous détestez !"
-            - "Résultat garanti !"
-            - ""
-            - "&bVous en avez &7(ammo)"
-            - ""
-            - "&9Fabricable pour &e(cost) CosmeSkills&9!"
+      Material: TNT
+      Amount: 1
+      Slot: 12
+      Page: 1
+      Displayname: "&b(ammo) (name)"
+      Lore:
+        - ""
+        - "&7Lancez de la dynamite sur les personnes"
+        - "&7que vous détestez !"
+        - "Résultat garanti !"
+        - ""
+        - "&bVous en avez &7(ammo)"
+        - ""
+        - "&9Fabricable pour &e(cost) CosmeSkills&9!"
 
-        Paintball:
-            Enable: true
-            Name: "&bPaintball"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 100
-            Rarity: COMMON
-            Cooldown: 0.3
-            Ammo:
-                Purchase-Amount: 10
-                Infinity: false
+    Paintball:
+      Enable: true
+      Name: "&bPaintball"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 100
+      Rarity: COMMON
+      Cooldown: 0.3
+      Ammo:
+        Purchasable: true
+        Purchase-Amount: 10
+        Cost: 100
+        Infinity: false
 
-            Material: GOLDEN_HORSE_ARMOR
-            Amount: 1
-            Slot: 13
-            Displayname: "&b(ammo) (name)"
-            Lore:
-            - ""
-            - "&7Pourquoi cet endroit a l'air aussi ennuyant ?"
-            - "&7Répandez des couleurs partout !"
-            - ""
-            - "&bVous en avez &7(ammo)"
-            - ""
-            - "&9Fabricable pour &e(cost) CosmeSkills&9!"
+      Material: GOLDEN_HORSE_ARMOR
+      Amount: 1
+      Slot: 13
+      Page: 1
+      Displayname: "&b(ammo) (name)"
+      Lore:
+        - ""
+        - "&7Pourquoi cet endroit a l'air aussi ennuyant ?"
+        - "&7Répandez des couleurs partout !"
+        - ""
+        - "&bVous en avez &7(ammo)"
+        - ""
+        - "&9Fabricable pour &e(cost) CosmeSkills&9!"
 
-        Bat-Blaster:
-            Enable: true
-            Name: "&bBlaster à chauves-souris"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 100
-            Rarity: COMMON
-            Cooldown: 5.0
-            Ammo:
-                Purchase-Amount: 10
-                Infinity: false
+    Bat-Blaster:
+      Enable: true
+      Name: "&bBlaster à chauves-souris"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 100
+      Rarity: COMMON
+      Cooldown: 5.0
+      Ammo:
+        Purchasable: true
+        Purchase-Amount: 10
+        Cost: 100
+        Infinity: false
 
-            Material: IRON_HORSE_ARMOR
-            Amount: 1
-            Slot: 14
-            Displayname: "&b(ammo) (name)"
-            Lore:
-            - ""
-            - "&7Libérez des vagues de terrifiantes"
-            - "&7de chauve-souris sur les personnes que vous n'aimez pas !"
-            - ""
-            - "&bVous en avez &7(ammo)"
-            - ""
-            - "&9Fabricable pour &e(cost) CosmeSkills&9!"
+      Material: IRON_HORSE_ARMOR
+      Amount: 1
+      Slot: 14
+      Page: 1
+      Displayname: "&b(ammo) (name)"
+      Lore:
+        - ""
+        - "&7Libérez des vagues de terrifiantes"
+        - "&7de chauve-souris sur les personnes que vous n'aimez pas !"
+        - ""
+        - "&bVous en avez &7(ammo)"
+        - ""
+        - "&9Fabricable pour &e(cost) CosmeSkills&9!"
 
-        Confetti:
-            Enable: true
-            Name: "&bConfettis"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 100
-            Rarity: COMMON
-            Cooldown: 0.3
-            Ammo:
-                Purchase-Amount: 10
-                Infinity: false
+    Confetti:
+      Enable: true
+      Name: "&bConfettis"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 100
+      Rarity: COMMON
+      Cooldown: 0.3
+      Ammo:
+        Purchasable: true
+        Purchase-Amount: 10
+        Cost: 100
+        Infinity: false
 
-            Material: BLAZE_ROD
-            Amount: 1
-            Slot: 15
-            Displayname: "&b(ammo) (name)"
-            Lore:
-            - ""
-            - "&7Surprenez quelqu'un avec quelques"
-            - "&7magnifiques couleurs !"
-            - ""
-            - "&bVous en avez &7(ammo)"
-            - ""
-            - "&9Fabricable pour &e(cost) CosmeSkills&9!"
+      Material: BLAZE_ROD
+      Amount: 1
+      Slot: 15
+      Page: 1
+      Displayname: "&b(ammo) (name)"
+      Lore:
+        - ""
+        - "&7Surprenez quelqu'un avec quelques"
+        - "&7magnifiques couleurs !"
+        - ""
+        - "&bVous en avez &7(ammo)"
+        - ""
+        - "&9Fabricable pour &e(cost) CosmeSkills&9!"
 
-        Party-Popper:
-            Enable: true
-            Name: "&bParty Popper"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 100
-            Rarity: COMMON
-            Cooldown: 20.0
-            Ammo:
-                Purchase-Amount: 10
-                Infinity: false
+    Party-Popper:
+      Enable: true
+      Name: "&bParty Popper"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 100
+      Rarity: COMMON
+      Cooldown: 20.0
+      Ammo:
+        Purchasable: true
+        Purchase-Amount: 10
+        Cost: 100
+        Infinity: false
 
-            Material: CAKE
-            Amount: 1
-            Slot: 16
-            Displayname: "&b(ammo) (name)"
-            Lore:
-            - ""
-            - "&7Des fêtes inoubliables !"
-            - ""
-            - "&bVous en avez &7(ammo)"
-            - ""
-            - "&9Craftable for &e(cost) coins&9!"
+      Material: CAKE
+      Amount: 1
+      Slot: 16
+      Page: 1
+      Displayname: "&b(ammo) (name)"
+      Lore:
+        - ""
+        - "&7Des fêtes inoubliables !"
+        - ""
+        - "&bVous en avez &7(ammo)"
+        - ""
+        - "&9Craftable for &e(cost) coins&9!"
 
-        Coin-Party-Bomb:
-            Enable: true
-            Name: "&bBombe party"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 1000
-            Rarity: RARE
-            Cooldown: 50.0
-            Ammo:
-                Purchase-Amount: 1
-                Infinity: false
+    Coin-Party-Bomb:
+      Enable: true
+      Name: "&bBombe party"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 1000
+      Rarity: RARE
+      Cooldown: 50.0
+      Ammo:
+        Purchasable: true
+        Purchase-Amount: 1
+        Cost: 100
+        Infinity: false
 
-            Material: SUNFLOWER
-            Amount: 1
-            Slot: 19
-            Displayname: "&b(ammo) (name)"
-            Lore:
-            - ""
-            - "&7Vous serez le joueur préféré de tout le monde !"
-            - "&7Quand vous lancerez ça !"
-            - ""
-            - "&bVous en avez &7(ammo)"
-            - ""
-            - "&9Fabricable pour &e(cost) CosmeSkills&9!"
+      Material: SUNFLOWER
+      Amount: 1
+      Slot: 19
+      Page: 1
+      Displayname: "&b(ammo) (name)"
+      Lore:
+        - ""
+        - "&7Vous serez le joueur préféré de tout le monde !"
+        - "&7Quand vous lancerez ça !"
+        - ""
+        - "&bVous en avez &7(ammo)"
+        - ""
+        - "&9Fabricable pour &e(cost) CosmeSkills&9!"
 
-        Merry-Go-Round:
-            Enable: true
-            Name: "&bManège"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 800
-            Rarity: RARE
-            Cooldown: 80.0
-            Ammo:
-                Purchase-Amount: 2
-                Infinity: false
+    Merry-Go-Round:
+      Enable: true
+      Name: "&bManège"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 800
+      Rarity: RARE
+      Cooldown: 80.0
+      Ammo:
+        Purchasable: true
+        Purchase-Amount: 2
+        Cost: 100
+        Infinity: false
 
-            Material: MINECART
-            Amount: 1
-            Slot: 20
-            Displayname: "&b(ammo) (name)"
-            Lore:
-            - ""
-            - "&7Ouuuuui, je ne me suis jamais autant"
-            - "&7amuséééééé !"
-            - ""
-            - "&bVous en avez &7(ammo)"
-            - ""
-            - "&9Fabriquable pour &e(cost) CosmeSkills&9!"
+      Material: MINECART
+      Amount: 1
+      Slot: 20
+      Page: 1
+      Displayname: "&b(ammo) (name)"
+      Lore:
+        - ""
+        - "&7Ouuuuui, je ne me suis jamais autant"
+        - "&7amuséééééé !"
+        - ""
+        - "&bVous en avez &7(ammo)"
+        - ""
+        - "&9Fabriquable pour &e(cost) CosmeSkills&9!"
 
-        Rocket:
-            Enable: true
-            Name: "&bFusée"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 500
-            Rarity: COMMON
-            Cooldown: 30.0
-            Ammo:
-                Purchase-Amount: 3
-                Infinity: false
+    Rocket:
+      Enable: true
+      Name: "&bFusée"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 500
+      Rarity: COMMON
+      Cooldown: 30.0
+      Ammo:
+        Purchasable: true
+        Purchase-Amount: 3
+        Cost: 100
+        Infinity: false
 
-            Material: IRON_BLOCK
-            Amount: 1
-            Slot: 21
-            Displayname: "&b(ammo) (name)"
-            Lore:
-            - ""
-            - "&7Soyez prêts pour la plus grosse"
-            - "&7aventure !"
-            - ""
-            - "&bVous en avez &7(ammo)"
-            - ""
-            - "&9Fabricable pour &e(cost) CosmeSkills&9!"
+      Material: IRON_BLOCK
+      Amount: 1
+      Slot: 21
+      Page: 1
+      Displayname: "&b(ammo) (name)"
+      Lore:
+        - ""
+        - "&7Soyez prêts pour la plus grosse"
+        - "&7aventure !"
+        - ""
+        - "&bVous en avez &7(ammo)"
+        - ""
+        - "&9Fabricable pour &e(cost) CosmeSkills&9!"
 
-        Trampoline:
-            Enable: true
-            Name: "&bTrampoline"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 400
-            Rarity: COMMON
-            Cooldown: 40.0
-            Ammo:
-                Purchase-Amount: 2
-                Infinity: false
+    Trampoline:
+      Enable: true
+      Name: "&bTrampoline"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 400
+      Rarity: COMMON
+      Cooldown: 40.0
+      Ammo:
+        Purchasable: true
+        Purchase-Amount: 2
+        Cost: 100
+        Infinity: false
 
-            Material: BLACK_WOOL
-            Amount: 1
-            Slot: 22
-            Displayname: "&b(ammo) (name)"
-            Lore:
-            - ""
-            - "&7Venez et rebondissez avec moi !"
-            - ""
-            - "&bVous en avez &7(ammo)"
-            - ""
-            - "&9Fabricable pour &e(cost) CosmeSkills&9!"
+      Material: BLACK_WOOL
+      Amount: 1
+      Slot: 22
+      Page: 1
+      Displayname: "&b(ammo) (name)"
+      Lore:
+        - ""
+        - "&7Venez et rebondissez avec moi !"
+        - ""
+        - "&bVous en avez &7(ammo)"
+        - ""
+        - "&9Fabricable pour &e(cost) CosmeSkills&9!"
 
-        Disco-Ball:
-            Enable: true
-            Name: "&bBoule disco"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 300
-            Rarity: COMMON
-            Cooldown: 50.0
-            Ammo:
-                Purchase-Amount: 5
-                Infinity: false
+    Disco-Ball:
+      Enable: true
+      Name: "&bBoule disco"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 300
+      Rarity: COMMON
+      Cooldown: 50.0
+      Ammo:
+        Purchasable: true
+        Purchase-Amount: 5
+        Cost: 100
+        Infinity: false
 
-            Material: BLUE_STAINED_GLASS
-            Amount: 1
-            Slot: 23
-            Displayname: "&b(ammo) (name)"
-            Lore:
-            - ""
-            - "&7Tais-toi et viens danser avec moi !"
-            - ""
-            - "&bVous possédez &7(ammo)"
-            - ""
-            - "&9Fabricable pour &e(cost) CosmeSkills&9!"
+      Material: BLUE_STAINED_GLASS
+      Amount: 1
+      Slot: 23
+      Page: 1
+      Displayname: "&b(ammo) (name)"
+      Lore:
+        - ""
+        - "&7Tais-toi et viens danser avec moi !"
+        - ""
+        - "&bVous possédez &7(ammo)"
+        - ""
+        - "&9Fabricable pour &e(cost) CosmeSkills&9!"
