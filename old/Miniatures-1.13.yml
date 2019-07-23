@@ -1,13 +1,13 @@
 Miniatures:
-    Enable: true
-    Fill-Empty-Slots: true
-    Go-Back-Item: true
+  Enable: true
+  Fill-Empty-Slots: true
+  Go-Back-Item: true
 
-    Material: ZOMBIE_HEAD
-    Amount: 1
-    Slot: 48
-    Displayname: "&bMiniatures"
-    Lore:
+  Material: ZOMBIE_HEAD
+  Amount: 1
+  Slot: 48
+  Displayname: "&bMiniatures"
+  Lore:
     - ""
     - "&7Ces petites créatures vous suivront"
     - "&7partout !"
@@ -17,233 +17,368 @@ Miniatures:
     - "&7Clic gauche pour ouvrir le menu des mini-entités"
     - "&7Clic droit pour retirer votre mini-entité actuelle"
 
-    Inventory:
-        Title: "Miniatures"
-        Size: 54
+  Menu:
+    Title: "Miniatures"
+    Size: 54
 
-        Astronaut:
-            Enable: true
-            Name: "&bAstronaute"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+  Cosmetics:
+    Astronaut:
+      Enable: true
+      Name: "&bAstronaute"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 10
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Votre astronaute personnel"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 10
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Votre astronaute personnel"
 
-        Devil:
-            Enable: true
-            Name: "&bDiable"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Chicken:
+      Enable: true
+      Name: "&bChicken"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 11
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Pour une certaine raison, le diable"
-            - "&7vous suit."
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 11
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7A flying chicken."
 
-        Enderman:
-            Enable: true
-            Name: "&bEnderman"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Devil:
+      Enable: true
+      Name: "&bDiable"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 12
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Il vous téléportera hors du danger !"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 12
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Pour une certaine raison, le diable"
+        - "&7vous suit."
 
-        Fox:
-            Enable: true
-            Name: "&bRenard"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Donald-Duck:
+      Enable: true
+      Name: "&bDonald Duck"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 13
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Ce petit renard vous suivra !"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 13
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Quack quack!"
 
-        Ghost:
-            Enable: true
-            Name: "&bFantôme"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Elephant:
+      Enable: true
+      Name: "&bElephant"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 14
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Effrayant, il effrayera vos amis !"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 14
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Cute little elephant baby!"
 
-        Iron-Golem:
-            Enable: true
-            Name: "&bGolem de fer"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Enderman:
+      Enable: true
+      Name: "&bEnderman"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 15
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7C'est finalement un bébé !"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 15
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Il vous téléportera hors du danger !"
 
-        Mario:
-            Enable: true
-            Name: "&bMario"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Fox:
+      Enable: true
+      Name: "&bRenard"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 16
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7It's meeee, Marioooooo!"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 16
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Ce petit renard vous suivra !"
 
-        Panda:
-            Enable: true
-            Name: "&bPanda"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Ghost:
+      Enable: true
+      Name: "&bFantôme"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 19
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Attention, toujours avoir du bambou sur soi"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 19
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Effrayant, il effrayera vos amis !"
 
-        Parrot:
-            Enable: true
-            Name: "&bPerroquet"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Iron-Golem:
+      Enable: true
+      Name: "&bGolem de fer"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 20
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Ne lui donnez pas de cookie,"
-            - "&7le chocolat est mauvais pour les oiseaux"
-            - "&7Je parle en connaissance de cause."
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 20
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7C'est finalement un bébé !"
+        - ""
 
-        Skeleton:
-            Enable: true
-            Name: "&bSquelette"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Koala-Bear:
+      Enable: true
+      Name: "&bKoala Bear"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: SKELETON_SKULL
-            Amount: 1
-            Slot: 21
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Un archer splendide !"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 21
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Do you want a hug?"
 
-        Stitch:
-            Enable: true
-            Name: "&bStitch"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Mario:
+      Enable: true
+      Name: "&bMario"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 22
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Tout le monde aime Stich !"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 22
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7It's meeee, Marioooooo!"
 
-        Turtle:
-            Enable: true
-            Name: "&bTurtle"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Monkey:
+      Enable: true
+      Name: "&bMonkey"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 23
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Pour les joueurs qui aiment prendre leur temps !"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 23
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Do you want a banana?"
 
-        Witch:
-            Enable: true
-            Name: "&bSorcière"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Panda:
+      Enable: true
+      Name: "&bPanda"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 24
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7L'abilité de maudir quelqu'un, c'est génial !"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 24
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Attention, toujours avoir du bambou sur soi"
 
-        Zombie:
-            Enable: true
-            Name: "&bZombie"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: RARE
+    Parrot:
+      Enable: true
+      Name: "&bPerroquet"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
 
-            Material: ZOMBIE_HEAD
-            Amount: 1
-            Slot: 25
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Un mort-vivant qui était autrefois un vivant mort"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 25
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Ne lui donnez pas de cookie,"
+        - "&7le chocolat est mauvais pour les oiseaux"
+        - "&7Je parle en connaissance de cause."
+
+    Santa-Claus:
+      Enable: true
+      Name: "&bSanta Claus"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 28
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7He watches you all the time!"
+
+    Skeleton:
+      Enable: true
+      Name: "&bSquelette"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: SKELETON_SKULL
+      Amount: 1
+      Slot: 29
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Un archer splendide !"
+
+    Stitch:
+      Enable: true
+      Name: "&bStitch"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 30
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Tout le monde aime Stich !"
+
+    Turtle:
+      Enable: true
+      Name: "&bTurtle"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 31
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Pour les joueurs qui aiment prendre leur temps !"
+
+    Witch:
+      Enable: true
+      Name: "&bSorcière"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 32
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7L'abilité de maudir quelqu'un, c'est génial !"
+
+    Yoshi:
+      Enable: true
+      Name: "&bYoshi"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 33
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7You might recognize him from another game."
+
+    Zombie:
+      Enable: true
+      Name: "&bZombie"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: ZOMBIE_HEAD
+      Amount: 1
+      Slot: 34
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Un mort-vivant qui était autrefois un vivant mort"
