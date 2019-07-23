@@ -18,10 +18,11 @@ Particle-Effects:
     - "&7Clic gauche pour ouvrir le menu de particules !"
     - "&7Clic droit pour retirer les particules actuelles !"
 
-  Inventory:
+  Menu:
     Title: "Particules"
     Size: 54
 
+  Cosmetics:
     Shadow-Walk:
       Enable: true
       Name: "&bMarche de l'ombre"
@@ -33,6 +34,7 @@ Particle-Effects:
       Material: COAL
       Amount: 1
       Slot: 10
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -50,6 +52,7 @@ Particle-Effects:
       Material: EMERALD
       Amount: 1
       Slot: 11
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -67,6 +70,7 @@ Particle-Effects:
       Material: LAPIS_LAZULI
       Amount: 1
       Slot: 12
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -84,6 +88,7 @@ Particle-Effects:
       Material: REDSTONE
       Amount: 1
       Slot: 13
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -101,6 +106,7 @@ Particle-Effects:
       Material: BOOK
       Amount: 1
       Slot: 14
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -118,6 +124,7 @@ Particle-Effects:
       Material: NOTE_BLOCK
       Amount: 1
       Slot: 15
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -135,6 +142,7 @@ Particle-Effects:
       Material: PURPLE_DYE
       Amount: 1
       Slot: 16
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -151,6 +159,7 @@ Particle-Effects:
       Material: ROSE_RED
       Amount: 1
       Slot: 19
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -167,6 +176,7 @@ Particle-Effects:
       Material: CACTUS_GREEN
       Amount: 1
       Slot: 20
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -185,6 +195,7 @@ Particle-Effects:
       Material: SNOWBALL
       Amount: 1
       Slot: 21
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -202,6 +213,7 @@ Particle-Effects:
       Material: ENDER_EYE
       Amount: 1
       Slot: 22
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -219,6 +231,7 @@ Particle-Effects:
       Material: CHARCOAL
       Amount: 1
       Slot: 23
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -235,6 +248,7 @@ Particle-Effects:
       Material: MELON_SEEDS
       Amount: 1
       Slot: 24
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -252,6 +266,7 @@ Particle-Effects:
       Material: ORANGE_DYE
       Amount: 1
       Slot: 25
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -269,6 +284,7 @@ Particle-Effects:
       Material: COBWEB
       Amount: 1
       Slot: 28
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -286,6 +302,7 @@ Particle-Effects:
       Material: BLAZE_ROD
       Amount: 1
       Slot: 29
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -302,6 +319,7 @@ Particle-Effects:
       Material: LIGHT_GRAY_DYE
       Amount: 1
       Slot: 30
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -319,6 +337,7 @@ Particle-Effects:
       Material: FIREWORK_STAR
       Amount: 1
       Slot: 31
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -336,6 +355,7 @@ Particle-Effects:
       Material: CYAN_DYE
       Amount: 1
       Slot: 32
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -352,6 +372,7 @@ Particle-Effects:
       Material: COAL_BLOCK
       Amount: 1
       Slot: 33
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -369,6 +390,7 @@ Particle-Effects:
       Material: BLAZE_POWDER
       Amount: 1
       Slot: 34
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -385,6 +407,7 @@ Particle-Effects:
       Material: BLAZE_POWDER
       Amount: 1
       Slot: 37
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -402,6 +425,7 @@ Particle-Effects:
       Material: DANDELION_YELLOW
       Amount: 1
       Slot: 38
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
@@ -419,6 +443,7 @@ Particle-Effects:
       Material: ROSE_RED
       Amount: 1
       Slot: 39
+      Page: 1
       Displayname: "(name)"
       Lore:
         - ""
