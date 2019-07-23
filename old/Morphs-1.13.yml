@@ -1,13 +1,13 @@
 Morphs:
-    Enable: true
-    Fill-Empty-Slots: true
-    Go-Back-Item: true
+  Enable: true
+  Fill-Empty-Slots: true
+  Go-Back-Item: true
 
-    Material: LEATHER
-    Amount: 1
-    Slot: 52
-    Displayname: "&bTransformations"
-    Lore:
+  Material: LEATHER
+  Amount: 1
+  Slot: 52
+  Displayname: "&bTransformations"
+  Lore:
     - ""
     - "&7Avez vous toujours voulu devenir un"
     - "&7mob ? Eh bien, maintenant vous pouvez !"
@@ -17,209 +17,221 @@ Morphs:
     - "&7Clic gauche pour ouvrir le menu des transformations"
     - "&7Clic droit pour retirer votre transformation actuelle"
 
-    Inventory:
-        Title: "Transformations"
-        Size: 54
+  Menu:
+    Title: "Transformations"
+    Size: 54
 
-        Toggle-Self-View:
-            Material: SADDLE
-            Amount: 1
-            Slot: 40
-            Displayname: "&bActiver l'auto-vue"
-            Lore:
-            - ""
-            - "&7Clic droit pour activer l'auto-vue"
+    Toggle-Self-View:
+      Material: SADDLE
+      Amount: 1
+      Slot: 40
+      Displayname: "&bActiver l'auto-vue"
+      Lore:
+        - ""
+        - "&7Clic droit pour activer l'auto-vue"
 
-        Bat:
-            Enable: true
-            Name: "&bChauve-souris"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: LEGENDARY
+  Cosmetics:
+    Bat:
+      Enable: true
+      Name: "&bChauve-souris"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
 
-            Material: WITHER_SKELETON_SKULL
-            Amount: 1
-            Slot: 10
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Double jump et vous serez capable de"
-            - "&7voler pendant quelques millisecondes !"
+      Material: WITHER_SKELETON_SKULL
+      Amount: 1
+      Slot: 10
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Double jump et vous serez capable de"
+        - "&7voler pendant quelques millisecondes !"
 
-        Blaze:
-            Enable: true
-            Name: "&bBlaze"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: LEGENDARY
+    Blaze:
+      Enable: true
+      Name: "&bBlaze"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
 
-            Material: BLAZE_POWDER
-            Amount: 1
-            Slot: 11
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Sneak pour voler !"
+      Material: BLAZE_POWDER
+      Amount: 1
+      Slot: 11
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Sneak pour voler !"
 
-        Creeper:
-            Enable: true
-            Name: "&bCreeper"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: LEGENDARY
+    Creeper:
+      Enable: true
+      Name: "&bCreeper"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
 
-            Material: CREEPER_HEAD
-            Amount: 1
-            Slot: 12
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Sneak pour créer une explosion."
+      Material: CREEPER_HEAD
+      Amount: 1
+      Slot: 12
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Sneak pour créer une explosion."
 
-        Elder-Guardian:
-            Enable: true
-            Name: "&bElder Guardian"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: LEGENDARY
+    Elder-Guardian:
+      Enable: true
+      Name: "&bElder Guardian"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
 
-            Material: PRISMARINE_SHARD
-            Amount: 1
-            Slot: 13
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Clic gauche pour une explosion laser."
-            - ""
+      Material: PRISMARINE_SHARD
+      Amount: 1
+      Slot: 13
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Clic gauche pour une explosion laser."
+        - ""
 
-        Enderman:
-            Enable: true
-            Name: "&bEnderman"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: LEGENDARY
+    Enderman:
+      Enable: true
+      Name: "&bEnderman"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
 
-            Material: ENDER_PEARL
-            Amount: 1
-            Slot: 14
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Clic gauche pour vous téléporter"
+      Material: ENDER_PEARL
+      Amount: 1
+      Slot: 14
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Clic gauche pour vous téléporter"
 
-        Olaf:
-            Enable: true
-            Name: "&bOlaf"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: LEGENDARY
+    Olaf:
+      Enable: true
+      Name: "&bOlaf"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
 
-            Material: SNOWBALL
-            Amount: 1
-            Slot: 15
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Tout le monde aime Olaf!"
-            - ""
-            - "&7Clic gauche pour lancer"
-            - "&7une boule de neige."
+      Material: SNOWBALL
+      Amount: 1
+      Slot: 15
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Tout le monde aime Olaf!"
+        - ""
+        - "&7Clic gauche pour lancer"
+        - "&7une boule de neige."
 
-        Pig:
-            Enable: true
-            Name: "&bCochon"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: LEGENDARY
+    Pig:
+      Enable: true
+      Name: "&bCochon"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
 
-            Material: PORKCHOP
-            Amount: 1
-            Slot: 16
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Cours contre les autres pour les pousser. Comme"
-            - "&7un cochon lambda ennuyant."
+      Material: PORKCHOP
+      Amount: 1
+      Slot: 16
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Cours contre les autres pour les pousser. Comme"
+        - "&7un cochon lambda ennuyant."
 
-        Slime:
-            Enable: true
-            Name: "&bSlime"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: LEGENDARY
+    Slime:
+      Enable: true
+      Name: "&bSlime"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
 
-            Material: SLIME_BLOCK
-            Amount: 1
-            Slot: 19
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Sautez comme un slime"
-            - "&7peut-être excitant."
-            - ""
-            - "&7Clic gauche pour lancer un bloc de"
-            - "&7slime."
+      Material: SLIME_BLOCK
+      Amount: 1
+      Slot: 19
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Sautez comme un slime"
+        - "&7peut-être excitant."
+        - ""
+        - "&7Clic gauche pour lancer un bloc de"
+        - "&7slime."
 
-        Witch:
-            Enable: true
-            Name: "&bSorcière"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: LEGENDARY
+    Witch:
+      Enable: true
+      Name: "&bSorcière"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
 
-            Material: POTION
-            Amount: 1
-            Slot: 20
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Vous avez toujours voulu maudir quelqu'un ?"
-            - ""
-            - "&7Clic gauche pour lancer une potion !"
-            - "&7Sneak lorsque votre potion"
-            - "&7touche votre cible lui confère"
-            - "&7cécité, autrement vitesse."
+      Material: POTION
+      Amount: 1
+      Slot: 20
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Vous avez toujours voulu maudir quelqu'un ?"
+        - ""
+        - "&7Clic gauche pour lancer une potion !"
+        - "&7Sneak lorsque votre potion"
+        - "&7touche votre cible lui confère"
+        - "&7cécité, autrement vitesse."
 
-        Wither:
-            Enable: true
-            Name: "&bWither"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: LEGENDARY
+    Wither:
+      Enable: true
+      Name: "&bWither"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
 
-            Material: WITHER_SKELETON_SKULL
-            Amount: 1
-            Slot: 21
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Voler."
-            - "&7Comme le puissant Wither que vous êtes."
-            - ""
-            - "&7Clic gauche pour tirer une tête de Wither !"
+      Material: WITHER_SKELETON_SKULL
+      Amount: 1
+      Slot: 21
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Voler."
+        - "&7Comme le puissant Wither que vous êtes."
+        - ""
+        - "&7Clic gauche pour tirer une tête de Wither !"
 
-        Zombie:
-            Enable: true
-            Name: "&bZombie"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: LEGENDARY
+    Zombie:
+      Enable: true
+      Name: "&bZombie"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
 
-            Material: ZOMBIE_HEAD
-            Amount: 1
-            Slot: 22
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Effrayez vos amis !"
+      Material: ZOMBIE_HEAD
+      Amount: 1
+      Slot: 22
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Effrayez vos amis !"
