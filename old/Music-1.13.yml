@@ -1,16 +1,16 @@
 Music:
-    Enable: true
-    Fill-Empty-Slots: true
-    Go-Back-Item: true
+  Enable: true
+  Fill-Empty-Slots: true
+  Go-Back-Item: true
 
-    Current-DJ-Hologram: "&aDJ de (player)"
-    Current-Song-Hologram: "&bÉcoute donc mon son ! (song)"
+  Current-DJ-Hologram: "&aDJ de (player)"
+  Current-Song-Hologram: "&bÉcoute donc mon son ! (song)"
 
-    Material: MUSIC_DISC_MALL
-    Amount: 1
-    Slot: 28
-    Displayname: "&bDJ"
-    Lore:
+  Material: MUSIC_DISC_MALL
+  Amount: 1
+  Slot: 28
+  Displayname: "&bDJ"
+  Lore:
     - ""
     - "&7Commencez une fête à l'endroit"
     - "&7où vous êtes!"
@@ -20,356 +20,503 @@ Music:
     - "&7Clic gauche pour invoquer votre DJ !"
     - "&7Clic droit pour arrêter votre fête !"
 
-    Inventory:
-        Title: "Votre DJ"
-        Size: 54
+  Menu:
+    Title: "Votre DJ"
+    Size: 54
 
-        All-I-Want-For-Christmas-Is-You:
-            Enable: true
-            Name: "&bAll I Want For Christmas Is You"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+  Cosmetics:
+    Africa:
+      Enable: true
+      Name: "&bAfrica"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: SNOW_BLOCK
-            Amount: 1
-            Slot: 31
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Une adorable musique de noël ! Trouvez quelqu'un"
-            - "&7sur Mineskill pour chanter avec vous."
+      Material: GRASS
+      Amount: 1
+      Slot: 10
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Old one, but good!"
 
-        All-Star:
-            Enable: true
-            Name: "&bAll Star"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    All-I-Want-For-Christmas-Is-You:
+      Enable: true
+      Name: "&bAll I Want For Christmas Is You"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: NETHER_STAR
-            Amount: 1
-            Slot: 10
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Cette musique est dans le film Shrek"
-            - ""
-            - "&7La musique originale est faite par Smash Mouth."
+      Material: SNOW_BLOCK
+      Amount: 1
+      Slot: 11
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Une adorable musique de noël ! Trouvez quelqu'un"
+        - "&7sur Mineskill pour chanter avec vous."
 
-        Another-One-Bites-The-Dust:
-            Enable: true
-            Name: "&bAnother One Bites The Dust"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    All-Star:
+      Enable: true
+      Name: "&bAll Star"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: GUNPOWDER
-            Amount: 1
-            Slot: 11
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Cette musique est un classique."
-            - ""
-            - "&7Chantez la si vous connaissez les paroles !"
+      Material: NETHER_STAR
+      Amount: 1
+      Slot: 12
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Cette musique est dans le film Shrek"
+        - ""
+        - "&7La musique originale est faite par Smash Mouth."
 
-        Call-Me-Maybe:
-            Enable: true
-            Name: "&bCall Me Maybe"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Another-One-Bites-The-Dust:
+      Enable: true
+      Name: "&bAnother One Bites The Dust"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: NETHER_STAR
-            Amount: 1
-            Slot: 24
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Hey, je viens de te rencontrer et c'est fou"
-            - "&7Mais voici mon numéro, donc appelle moi quand même."
+      Material: GUNPOWDER
+      Amount: 1
+      Slot: 13
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Cette musique est un classique."
+        - ""
+        - "&7Chantez la si vous connaissez les paroles !"
 
-        DJ-Got-Us-Falling-In-Love:
-            Enable: true
-            Name: "&bDJ Got Us Fallin' In Love"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Barbie-Girl:
+      Enable: true
+      Name: "&bBarbie Girl"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: ROSE_RED
-            Amount: 1
-            Slot: 12
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Chantez la si vous connaissez les paroles !"
+      Material: ROSE_RED
+      Amount: 1
+      Slot: 14
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7- Hi Barbie!"
+        - "&7- Hi Kent!"
 
-        Do-Not-Stop-Me-Now:
-            Enable: true
-            Name: "&bDon't Stop Me Now"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Call-Me-Maybe:
+      Enable: true
+      Name: "&bCall Me Maybe"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: MUSIC_DISC_CAT
-            Amount: 1
-            Slot: 25
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Don't stop me, don't stop me..."
-            - ""
-            - "&7La musique originale est faite par Queen."
+      Material: NETHER_STAR
+      Amount: 1
+      Slot: 15
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Hey, je viens de te rencontrer et c'est fou"
+        - "&7Mais voici mon numéro, donc appelle moi quand même."
 
-        Fireflies:
-            Enable: true
-            Name: "&bFireflies"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Dancing-Queen:
+      Enable: true
+      Name: "&bDancing Queen"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: GOLD_NUGGET
-            Amount: 1
-            Slot: 28
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Chantez la si vous connaissez les paroles !"
+      Material: NETHER_STAR
+      Amount: 1
+      Slot: 16
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Some good Swedish content!"
 
-        Frosty-The-Snowman:
-            Enable: true
-            Name: "&bFrosty The Snowman"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Despacito:
+      Enable: true
+      Name: "&bDespacito"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: ICE
-            Amount: 1
-            Slot: 13
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Chantez la si vous connaissez les paroles !"
+      Material: NETHER_STAR
+      Amount: 1
+      Slot: 19
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Do you like Spanish?"
 
-        Gangnam-Style:
-            Enable: true
-            Name: "&bGangnam Style"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    DJ-Got-Us-Falling-In-Love:
+      Enable: true
+      Name: "&bDJ Got Us Fallin' In Love"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: PLAYER_HEAD
-            Amount: 1
-            Slot: 14
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Whoppaaa gangnam styleeeeee."
-            - ""
-            - "&7La musique originale est faite par PSY!"
+      Material: ROSE_RED
+      Amount: 1
+      Slot: 20
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Chantez la si vous connaissez les paroles !"
 
-        Ghostbusters:
-            Enable: true
-            Name: "&bGhostbusters"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Do-Not-Stop-Me-Now:
+      Enable: true
+      Name: "&bDon't Stop Me Now"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: COBWEB
-            Data: 0
-            Amount: 1
-            Slot: 15
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Attrapez ces fantômes !"
-            - ""
-            - "&7Chantez là si vous connaissez les paroles !"
+      Material: MUSIC_DISC_CAT
+      Amount: 1
+      Slot: 21
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Don't stop me, don't stop me..."
+        - ""
+        - "&7La musique originale est faite par Queen."
 
-        He-Is-A-Pirate:
-            Enable: true
-            Name: "&bHe Is A Pirate"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Faded:
+      Enable: true
+      Name: "&bFaded"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: GOLD_INGOT
-            Data: 0
-            Amount: 1
-            Slot: 16
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Cette musique vient d'un célèbre film."
+      Material: COAL_BLOCK
+      Amount: 1
+      Slot: 22
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7- You were the shadow to my light."
 
-        Indiana-Jones-Theme:
-            Enable: true
-            Name: "&bIndiana Jones Theme"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Fireflies:
+      Enable: true
+      Name: "&bFireflies"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: LEAD
-            Data: 0
-            Amount: 1
-            Slot: 19
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Cette musique vient d'un film extrêmement connu."
+      Material: GOLD_NUGGET
+      Amount: 1
+      Slot: 23
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Chantez la si vous connaissez les paroles !"
 
-        Jingle-Bells:
-            Enable: true
-            Name: "&bJingle Bells"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Frosty-The-Snowman:
+      Enable: true
+      Name: "&bFrosty The Snowman"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: SNOWBALL
-            Data: 0
-            Amount: 1
-            Slot: 32
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Qui n'aime pas les chansons de Noël?"
-            - ""
-            - "&7Chantez la si vous connaissez les paroles !"
+      Material: ICE
+      Amount: 1
+      Slot: 24
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Chantez la si vous connaissez les paroles !"
 
-        Let-It-Go:
-            Enable: true
-            Name: "&bLet It Go"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Gangnam-Style:
+      Enable: true
+      Name: "&bGangnam Style"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: SNOWBALL
-            Data: 0
-            Amount: 1
-            Slot: 20
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Cette musique vient du très connu"
-            - "&7film appellé La Reine des Neiges."
-            - ""
-            - "&7Chantez la si vous connaissez les paroles !"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 25
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Whoppaaa gangnam styleeeeee."
+        - ""
+        - "&7La musique originale est faite par PSY!"
 
-        Levels:
-            Enable: true
-            Name: "&bLevels"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Ghostbusters:
+      Enable: true
+      Name: "&bGhostbusters"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: EXPERIENCE_BOTTLE
-            Data: 0
-            Amount: 1
-            Slot: 21
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Cette personne restera toujours"
-            - "&7dans nos coeurs ! R.I.P"
+      Material: COBWEB
+      Amount: 1
+      Slot: 28
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Attrapez ces fantômes !"
+        - ""
+        - "&7Chantez là si vous connaissez les paroles !"
 
-        Nyan-Cat:
-            Enable: true
-            Name: "&bNyan Cat"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Happier:
+      Enable: true
+      Name: "&bHappier"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: NETHER_STAR
-            Data: 0
-            Amount: 1
-            Slot: 22
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&4NYA &cNYA &6NYA &eNYA &2NYA &aNYA &1NYA &bNYA &5NYA &dNYA"
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 29
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7- I want you to be happier."
 
-        Popcorn:
-            Enable: true
-            Name: "&bPopcorn"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    He-Is-A-Pirate:
+      Enable: true
+      Name: "&bHe Is A Pirate"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: SUGAR
-            Data: 0
-            Amount: 1
-            Slot: 23
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Musique épique ! DANSE !"
+      Material: GOLD_INGOT
+      Amount: 1
+      Slot: 30
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Cette musique vient d'un célèbre film."
 
-        Rudolf-The-Red-Nosed-Reindeer:
-            Enable: true
-            Name: "&bRudolf The Red Nosed Reindeer"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Indiana-Jones-Theme:
+      Enable: true
+      Name: "&bIndiana Jones Theme"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: DEAD_BUSH
-            Data: 0
-            Amount: 1
-            Slot: 33
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7As-tu vu Rudolf ?"
+      Material: LEAD
+      Amount: 1
+      Slot: 31
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Cette musique vient d'un film extrêmement connu."
 
-        Shape-Of-You:
-            Enable: true
-            Name: "&bShape Of You"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Jingle-Bells:
+      Enable: true
+      Name: "&bJingle Bells"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: MUSIC_DISC_13
-            Data: 0
-            Amount: 1
-            Slot: 29
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Cette musique a été créée en"
-            - "&72017 par Ed Sheeran."
+      Material: SNOWBALL
+      Amount: 1
+      Slot: 32
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Qui n'aime pas les chansons de Noël?"
+        - ""
+        - "&7Chantez la si vous connaissez les paroles !"
 
-        Viva-La-Vida:
-            Enable: true
-            Name: "&bViva La Vida"
-            Can-Be-Found: true
-            Purchasable: true
-            Cost: 2000
-            Rarity: COMMON
+    Let-It-Go:
+      Enable: true
+      Name: "&bLet It Go"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
 
-            Material: GOLDEN_SWORD
-            Data: 0
-            Amount: 1
-            Slot: 30
-            Displayname: "(name)"
-            Lore:
-            - ""
-            - "&7Bonne écoute :)"
+      Material: SNOWBALL
+      Amount: 1
+      Slot: 33
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Cette musique vient du très connu"
+        - "&7film appellé La Reine des Neiges."
+        - ""
+        - "&7Chantez la si vous connaissez les paroles !"
+
+    Levels:
+      Enable: true
+      Name: "&bLevels"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: EXPERIENCE_BOTTLE
+      Amount: 1
+      Slot: 34
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Cette personne restera toujours"
+        - "&7dans nos coeurs ! R.I.P"
+
+    Nyan-Cat:
+      Enable: true
+      Name: "&bNyan Cat"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: NETHER_STAR
+      Amount: 1
+      Slot: 37
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&4NYA &cNYA &6NYA &eNYA &2NYA &aNYA &1NYA &bNYA &5NYA &dNYA"
+
+    Popcorn:
+      Enable: true
+      Name: "&bPopcorn"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: SUGAR
+      Amount: 1
+      Slot: 38
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Musique épique ! DANSE !"
+
+    Rudolf-The-Red-Nosed-Reindeer:
+      Enable: true
+      Name: "&bRudolf The Red Nosed Reindeer"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: DEAD_BUSH
+      Amount: 1
+      Slot: 39
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7As-tu vu Rudolf ?"
+
+    Sandstorm:
+      Enable: true
+      Name: "&bSandstorm"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: SAND
+      Amount: 1
+      Slot: 40
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Is it really a sandstorm?"
+
+    Shape-Of-You:
+      Enable: true
+      Name: "&bShape Of You"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: MUSIC_DISC_13
+      Amount: 1
+      Slot: 41
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Cette musique a été créée en"
+        - "&72017 par Ed Sheeran."
+
+    The-Fox:
+      Enable: true
+      Name: "&bThe Fox"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: ORANGE_DYE
+      Amount: 1
+      Slot: 42
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7- What does the fox say?"
+
+    Viva-La-Vida:
+      Enable: true
+      Name: "&bViva La Vida"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: GOLDEN_SWORD
+      Amount: 1
+      Slot: 43
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Bonne écoute :)"
