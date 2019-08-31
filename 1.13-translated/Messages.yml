@@ -1,0 +1,93 @@
+Messages:
+  Chat:
+    Cosmetic:
+      Arrow-Effects:
+        Equip: "&7Vous avez équipé &e(cosmetic)"
+        Unequip: "&7Vous avez retiré &e(cosmetic)"
+
+      Balloons:
+        Equip: "&7Vous avez fait apparaître &e(cosmetic)"
+        Unequip: "&7Vous avez fait disparaître &e(cosmetic)"
+
+      Banners:
+        Equip: "&7Vous avez équipé &e(cosmetic)"
+        Unequip: "&7Vous avez retiré &e(cosmetic)"
+
+      Death-Effects:
+        Equip: "&7Vous avez équipé &e(cosmetic)"
+        Unequip: "&7Vous avez retiré &e(cosmetic)"
+
+      Emotes:
+        Equip: "&7Vous avez équipé &e(cosmetic)"
+        Unequip: "&7Vous avez retiré &e(cosmetic)"
+
+      Gadgets:
+        Equip: "&7Vous avez équipé &e(cosmetic)"
+        Unequip: "&7Vous avez retiré &e(cosmetic)"
+
+      Miniatures:
+        Equip: "&7Vous avez fait apparaître &e(cosmetic)"
+        Unequip: "&7Vous avez fait disparaître &e(cosmetic)"
+
+      Morphs:
+        Equip: "&7Vous vous êtes transformé en &e(cosmetic)"
+        Unequip: "&7Vous n'avez plus la transformation &e(cosmetic)"
+
+      Mounts:
+        Equip: "&7Vous avez fait apparaître &e(cosmetic)"
+        Unequip: "&7Vous avez fait disparaître &e(cosmetic)"
+
+      Music:
+        Equip: "&7Vous avez fait apparaître &e(cosmetic)"
+        Unequip: "&7Vous avez fait disparaître &e(cosmetic)"
+
+      Particle-Effects:
+        Equip: "&7Vous avez invoqué &e(cosmetic)"
+        Unequip: "&7Vous avez fait disparaitre &e(cosmetic)"
+
+      Pets:
+        Equip: "&7Vous avez fait apparaître &e(cosmetic)"
+        Unequip: "&7Vous avez fait disparaître &e(cosmetic)"
+
+    Treasure-Chest:
+      Rewards:
+        Money: "&b(player) &7a trouvé &e(money) CosmeSkills&7!"
+        Ammo: ""
+
+        Arrow-Effects: "&b(player) &7a trouvé (rarityColor)(rarity) &e(cosmetic)&7!"
+        Balloons: "&b(player) &7a trouvé le ballon (rarityColor)(rarity) &e(cosmetic)&7!"
+        Banners: "&b(player) &7a trouvé la bannière (rarityColor)(rarity) &e(cosmetic)&7!"
+        Death-Effects: "&b(player) &7a trouvé l'effet de mort (rarityColor)(rarity) &e(cosmetic)&7!"
+        Emotes: "&b(player) &7a trouvé l'émoticone (rarityColor)(rarity) &e(cosmetic)&7!"
+        Gadgets: "&b(player) &7a trouvé le gadget (rarityColor)(rarity) &e(cosmetic)&7!"
+        Miniatures: "&b(player) &7a trouvé la miniature (rarityColor)(rarity) &e(cosmetic)&7!"
+        Morphs: "&b(player) &7a trouvé la transformation (rarityColor)(rarity) &e(cosmetic)&7!"
+        Mounts: "&b(player) &7a trouvé la monture (rarityColor)(rarity) &e(cosmetic)&7!"
+        Music: "&b(player) &7a trouvé la monture (rarityColor)(rarity) &e(cosmetic) &7!"
+        Particle-Effects: "&b(player) &7a trouvé l'effet de particule (rarityColor)(rarity) &e(cosmetic)&7!"
+        Pets: "&b(player) &7a trouvé l'animal (rarityColor)(rarity) &e(cosmetic) &7!"
+
+      Already-In-Use: "&7This station is already in use."
+      No-Treasure: "&7Vous n'avez pas de &e(treasure) &7à ouvrir"
+
+    Anti-Lag:
+      Unequip: "&7Vos cosmétiques ont été retirés pour empêcher les lags serveurs"
+      Cosmetics-Disabled: "&7Vous ne pouvez pas utiliser de cosmétiques pour le moment. Réessayez plus tard !"
+
+    Entered-Blacklisted-Region: "&cVous entrez dans une région où les cosmétiques sont interdits"
+    Equip-Denied-Blacklisted-Region: "&7Vous ne pouvez pas équiper ce cosmétique ici !"
+    Remove-Helmet: "&7Vous devez d'abord retirer votre casque pour équiper ce cosmétique !"
+    Remove-Item: "&7Retirez d'abord votre item au (slot)ème slot avant d'équiper ce cosmétique"
+    Must-Stand-On-Ground: "&7Vous devez être sur le sol pour équiper ce cosmétique"
+    Cosmetics-Not-Allowed: "&7Les cosmétiques ne sont pas autorisés dans ce monde"
+    Not-Your-Mount: "&cCe n'est pas votre monture !"
+    Not-Enough-Space: "&cIl n'y a pas assez d'espace pour équiper ce cosmétique."
+    Not-Enough-Money: "&cVous n'avez pas assez de CosmeSkills ! Rendez-vous sur https://mineskill.fr/boutique/"
+    Not-Permission: "&cVous n'avez pas la permission de faire ça !"
+
+  Title: []
+
+  ActionBar:
+    Gadget:
+      Cooldown: "(gadget) &f(gadgetCooldownBar) &f(gadgetCooldownSeconds)s"
+      Recharged: "&b(gadget) &7est désormais rechargé !"

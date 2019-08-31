@@ -1,0 +1,306 @@
+Mounts:
+  Enable: true
+  Fill-Empty-Slots: true
+  Go-Back-Item: true
+
+  Material: IRON_HORSE_ARMOR
+  Amount: 1
+  Slot: 34
+  Displayname: "&bMontures"
+  Lore:
+    - ""
+    - "&7Pourquoi marcher alors qu'on peut chevaucher ?"
+    - "&7Invoquez des montures fantastiques pour vous aider !"
+    - "&7Vous avez le style désormais."
+    - ""
+    - "&3Vous possédez &b(current)&7/&b(maximum)"
+    - ""
+    - "&7Clic gauche pour ouvrir le menu des montures !"
+    - "&7Clic droit pour retirer votre monture actuelle !"
+
+  Menu:
+    Title: "Mounts"
+    Size: 54
+
+  Cosmetics:
+    Infernal-Horror:
+      Enable: true
+      Name: "&bHorreur Infernale"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 3000
+      Rarity: RARE
+
+      Material: BONE
+      Amount: 1
+      Slot: 10
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Cet effrayant cheval revient de la mort !"
+        - "&7Seulement les meilleurs peuvent supporter"
+        - "&7cette horreur !"
+
+    Glacial-Steed:
+      Enable: true
+      Name: "&bCoursier glacial"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 3000
+      Rarity: RARE
+
+      Material: PACKED_ICE
+      Amount: 1
+      Slot: 11
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Le cheval d'Elsa dans La Reine des Neiges ?"
+        - "&7Allons faire un petit tour."
+
+    Lovely-Sheep:
+      Enable: true
+      Name: "&bMon petit mouton d'amour"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 3000
+      Rarity: RARE
+
+      Material: PINK_STAINED_GLASS
+      Amount: 1
+      Slot: 12
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Le monde a besoin de plus d'amour !"
+        - "&7Montrez à vos amis cette beauté !"
+        - ""
+        - "&7Regarde là où tu veux"
+        - "&7qu'elle aille"
+
+    Frosty-Snowman:
+      Enable: true
+      Name: "&bBonhomme de neige glacial"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 3000
+      Rarity: RARE
+
+      Material: SNOWBALL
+      Amount: 1
+      Slot: 13
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7C'est moi ! Olaf ! Tu ne te souviens pas"
+        - "&7de moi ? Je viens du film La Reine des Neiges."
+        - ""
+        - "&7Regarde là où tu veux"
+        - "&7qu'il aille"
+
+    Slime:
+      Enable: true
+      Name: "&bSlime"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 3000
+      Rarity: RARE
+
+      Material: SLIME_BLOCK
+      Amount: 1
+      Slot: 14
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Ennuie tes amis avec lui."
+        - "&7Un gros slime qui saute partout !"
+
+    Molten-Snake:
+      Enable: true
+      Name: "&bSerpent fondu"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 3000
+      Rarity: RARE
+
+      Material: NETHERRACK
+      Amount: 1
+      Slot: 15
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Le serpent fondu erre toujours"
+        - "&7autour des gens !"
+
+    Ethereal-Dragon:
+      Enable: true
+      Name: "&bDragon céleste"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 10000
+      Rarity: RARE
+
+      Material: DRAGON_EGG
+      Amount: 1
+      Slot: 16
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Le dragon obéit seulement aux"
+        - "&7joueurs légendaires ! Faîtes donc une balade"
+        - "&7sur la carte."
+
+    Hype-Train:
+      Enable: true
+      Name: "&bTrain de la Hype"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 3000
+      Rarity: RARE
+
+      Material: MINECART
+      Amount: 1
+      Slot: 19
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Montez à bord ! C'est parti pour"
+        - "&7un tour, tout le monde."
+
+    Pirate-Ship:
+      Enable: true
+      Name: "&bVaisseau pirate"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 3000
+      Rarity: RARE
+
+      Material: OAK_BOAT
+      Amount: 1
+      Slot: 20
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Montez à bord et allons tirer"
+        - "&7avec les canons ! Arrhhh..."
+
+    Baby-Reindeer:
+      Enable: true
+      Name: "&bBaby Reindeer"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: SNOW_BLOCK
+      Data: 0
+      Amount: 1
+      Slot: 21
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Maybe this reindeer will be"
+        - "&7used for Santa's sleigh?"
+
+    Cave-Spider:
+      Enable: true
+      Name: "&bCave Spider"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: SPIDER_EYE
+      Data: 0
+      Amount: 1
+      Slot: 22
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7This will be your first time"
+        - "&7riding on a posioned spider."
+
+    Clumsy-Mule:
+      Enable: true
+      Name: "&bClumsy Mule"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: CHEST
+      Data: 0
+      Amount: 1
+      Slot: 23
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Carry lots of package with you."
+
+    Decrepit-Warhorse:
+      Enable: true
+      Name: "&bDecrepit Warhorse"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: ROTTEN_FLESH
+      Data: 0
+      Amount: 1
+      Slot: 24
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7This beast has survived in many wars!"
+        - "&7Let him help you hunt your enemies."
+
+    Rudolf:
+      Enable: true
+      Name: "&bRudolf"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: DEAD_BUSH
+      Data: 0
+      Amount: 1
+      Slot: 25
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Rudolph the red nosed reindeer."
+
+    Unicorn:
+      Enable: true
+      Name: "&bUnicorn"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: BLAZE_ROD
+      Data: 0
+      Amount: 1
+      Slot: 28
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Pink, fluffy unicorns dancing"
+        - "&7on rainbows!"

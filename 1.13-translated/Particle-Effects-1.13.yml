@@ -1,0 +1,451 @@
+Particle-Effects:
+  Enable: true
+  Fill-Empty-Slots: true
+  Go-Back-Item: true
+
+  Material: NETHER_STAR
+  Amount: 1
+  Slot: 10
+  Displayname: "&bParticules"
+  Lore:
+    - ""
+    - "&7Montrez à tout le monde à quel"
+    - "&7point vous êtes cool avec ces"
+    - "&7particules qui vous suivent."
+    - ""
+    - "&3Vous possédez &b(current)&7/&b(maximum)"
+    - ""
+    - "&7Clic gauche pour ouvrir le menu de particules !"
+    - "&7Clic droit pour retirer les particules actuelles !"
+
+  Menu:
+    Title: "Particules"
+    Size: 54
+
+  Cosmetics:
+    Shadow-Walk:
+      Enable: true
+      Name: "&bMarche de l'ombre"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: COAL
+      Amount: 1
+      Slot: 10
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Marchez vers la lumière"
+        - "&7et laissez votre ombre derrière !"
+
+    Emerald-Twirl:
+      Enable: true
+      Name: "&bAura émeraude"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: EMERALD
+      Amount: 1
+      Slot: 11
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Du vert sintillant"
+        - "&7autour de vous !"
+
+    Rain-Cloud:
+      Enable: true
+      Name: "&bNuage et pluie"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: LAPIS_LAZULI
+      Amount: 1
+      Slot: 12
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Pas besoin d'une douche. Vous"
+        - "&7pouvez vous laver où vous voulez !"
+
+    Blood-Helix:
+      Enable: true
+      Name: "&bHélice de sang"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: REDSTONE
+      Amount: 1
+      Slot: 13
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Le sang magic est vraiment..."
+        - "&7dangereux mais super cool !"
+
+    Enchanted:
+      Enable: true
+      Name: "&bEnchanté"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: BOOK
+      Amount: 1
+      Slot: 14
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Vous êtes l'élu. Devenez"
+        - "&7le gars le plus intelligent !"
+
+    Music:
+      Enable: true
+      Name: "&bMusique"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: NOTE_BLOCK
+      Amount: 1
+      Slot: 15
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Tais toi et dance"
+        - "&7avec moi !"
+
+    Party-Time:
+      Enable: true
+      Name: "&bParty Time"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: PURPLE_DYE
+      Amount: 1
+      Slot: 16
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Qui n'aime pas les fêtes ?"
+
+    In-Love:
+      Enable: true
+      Name: "&bIn Love"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: ROSE_RED
+      Amount: 1
+      Slot: 19
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7L'amour est dans l'air !"
+
+    Crushed-Candy-Cane:
+      Enable: true
+      Name: "&bCanne en bonbon"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: CACTUS_GREEN
+      Amount: 1
+      Slot: 20
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Rien de meilleur."
+        - "&7N'écoutez surtout pas"
+        - "&7votre dentiste."
+
+    Frost-Lord:
+      Enable: true
+      Name: "&bSeigneur du givre"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: SNOWBALL
+      Amount: 1
+      Slot: 21
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Retour de l'hiver. Il"
+        - "&7est autour de toi."
+
+    Legendary-Aura:
+      Enable: true
+      Name: "&bAura légendaire"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: ENDER_EYE
+      Amount: 1
+      Slot: 22
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Il ne s'attache qu'aux"
+        - "&7joueurs légendaires !"
+
+    Demon-Twist:
+      Enable: true
+      Name: "&bAnneaux du démon"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: CHARCOAL
+      Amount: 1
+      Slot: 23
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Wooow !"
+
+    Yin-And-Yang:
+      Enable: true
+      Name: "&bYin and Yang"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: MELON_SEEDS
+      Amount: 1
+      Slot: 24
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Regarde, ça tourne sous"
+        - "&7vos pieds !"
+
+    Flame-Rings:
+      Enable: true
+      Name: "&bAnneaux de feu"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: ORANGE_DYE
+      Amount: 1
+      Slot: 25
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Les anneaux de feu"
+        - "&7tournent autour de vous !"
+
+    Tornado:
+      Enable: true
+      Name: "&bTornado"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: COBWEB
+      Amount: 1
+      Slot: 28
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Faites apparaitre une"
+        - "&7tornade !"
+
+    Flame-Of-Magic:
+      Enable: true
+      Name: "&bFlammes de la magie "
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: BLAZE_ROD
+      Amount: 1
+      Slot: 29
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Suis-je maudi ?"
+
+    Angel-Wings:
+      Enable: true
+      Name: "&bAiles d'ange"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: LIGHT_GRAY_DYE
+      Amount: 1
+      Slot: 30
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Devenez un ange quand"
+        - "&7vous avez l'envie !"
+
+    Vampire-Wings:
+      Enable: true
+      Name: "&bAiles de vampire"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: FIREWORK_STAR
+      Amount: 1
+      Slot: 31
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Vous avez toujours voulu être"
+        - "&7Batman ? Goûter du sang ?"
+
+    Protective-Shield:
+      Enable: true
+      Name: "&bBouclier protecteur"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: CYAN_DYE
+      Amount: 1
+      Slot: 32
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Protégé par un sort magique."
+
+    Black-Hole:
+      Enable: true
+      Name: "&bTrou noir"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: COAL_BLOCK
+      Amount: 1
+      Slot: 33
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Apparition d'un trou noir"
+        - "&7sous vos pieds !"
+
+    Flame-Flairy:
+      Enable: true
+      Name: "&bFéérie de flammes"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: LEGENDARY
+
+      Material: BLAZE_POWDER
+      Amount: 1
+      Slot: 34
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Et elles vous suivent !"
+
+    Flame-Of-The-Demons:
+      Enable: true
+      Name: "&bFlammes du démon"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: BLAZE_POWDER
+      Amount: 1
+      Slot: 37
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Ces flammes viennent tout droit"
+        - "&7des démons."
+
+    Aura-Of-Flame:
+      Enable: true
+      Name: "&bAura de flammes"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: DANDELION_YELLOW
+      Amount: 1
+      Slot: 38
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Un tourbillon magnifique"
+        - "&7de flammes."
+
+    Big-Heart:
+      Enable: true
+      Name: "&bGros coeur"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: ROSE_RED
+      Amount: 1
+      Slot: 39
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7L'amour, c'est la clef du"
+        - "&7bonheur !"

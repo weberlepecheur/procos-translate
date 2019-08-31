@@ -1,0 +1,213 @@
+Emotes:
+  Enable: true
+  Fill-Empty-Slots: true
+  Go-Back-Item: true
+
+  Material: PLAYER_HEAD
+  Amount: 1
+  Slot: 32
+  Displayname: "&bÉmoticones"
+  Lore:
+    - ""
+    - "&7Laissez les autres connaître quelle humeur"
+    - "&7vous avez !"
+    - ""
+    - "&3Vous possédez &b(current)&7/&b(maximum)"
+    - ""
+    - "&7Clic gauche pour ouvrir le menu des émoticones !"
+    - "&7Clic droit pour retirer l'émoticone actuelle !"
+
+  Menu:
+    Title: "Émoticones"
+    Size: 54
+
+  Cosmetics:
+    Cheeky:
+      Enable: true
+      Name: "&bCheeky"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 10
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7:p"
+
+    Deal-With-It:
+      Enable: true
+      Name: "&bDeal With It"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 11
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Certains sont meilleurs que d'autres !"
+
+    Dizzy:
+      Enable: true
+      Name: "&bDizzy"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 12
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7I am feeling a bit sick. Maybe"
+        - "&7this rollercoaster was not for me."
+
+    Happy:
+      Enable: true
+      Name: "&bHeureux"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 13
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Je suis un homme CONTENT !"
+
+    In-Love:
+      Enable: true
+      Name: "&bAmoureux"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 14
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7OH MON DIEU"
+        - "&7Tu es tellement beau !"
+
+    Rage:
+      Enable: true
+      Name: "&bRage"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 15
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7JE SUIS UN HOMME EN COLÈRE"
+
+    RIP:
+      Enable: true
+      Name: "&bRIP"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 16
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Will I be missed?"
+
+    Sad:
+      Enable: true
+      Name: "&bTriste"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 19
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Je ne pleure pas, j'ai un cil dans l'oeil."
+        - "&7**Pleure**"
+
+    Spicy:
+      Enable: true
+      Name: "&bSpicy"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 20
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7That peppar wss hot!"
+
+    Surprised:
+      Enable: true
+      Name: "&bSurpris"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 21
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7OH TU M'AS BIEN EU !"
+
+    Wink:
+      Enable: true
+      Name: "&bClin d'oeil"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: PLAYER_HEAD
+      Amount: 1
+      Slot: 22
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Je t'ai eu !"
