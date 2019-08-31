@@ -1,0 +1,168 @@
+Pets:
+  Enable: true
+  Fill-Empty-Slots: true
+  Go-Back-Item: true
+
+  Material: BONE
+  Amount: 1
+  Slot: 46
+  Displayname: "&bAnimaux"
+  Lore:
+    - ""
+    - "&7Vous pouvez vous sentir"
+    - "&7très seul sur le serveur parfois. Invoquez un"
+    - "&7adorable animal qui vous suivra"
+    - "&7partout !"
+    - ""
+    - "&3Vous possédez &b(current)&7/&b(maximum)"
+    - ""
+    - "&7Clic gauche pour ouvrir le menu des animaux !"
+    - "&7Clic droit pour retirer votre animal actuel!"
+
+  Menu:
+    Title: "Animaux"
+    Size: 54
+
+  Cosmetics:
+    Piggy:
+      Enable: true
+      Name: "&bCochon"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: PORKCHOP
+      Amount: 1
+      Slot: 10
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Jambon de Noël ?"
+        - "&7PITIÉ NON !"
+
+    Doggy:
+      Enable: true
+      Name: "&bChiot"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: BONE
+      Amount: 1
+      Slot: 11
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Woufff... Regardez donc ce petit chiot trop mignon !"
+
+    Kitty:
+      Enable: true
+      Name: "&bChaton"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: COD
+      Amount: 1
+      Slot: 12
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Miaou miaou..."
+
+    Colorful-Sheep:
+      Enable: true
+      Name: "&bMouton coloré"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: WHITE_WOOL
+      Amount: 1
+      Slot: 13
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Qui a dit que les moutons ne pouvaient pas"
+        - "&7changer de couleur de laine ?"
+
+    Easter-Bunny:
+      Enable: true
+      Name: "&bLapin de Pâques"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: CARROT
+      Amount: 1
+      Slot: 14
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Un mignon petit lapin vous suit"
+        - "&7partout !"
+
+    Elf:
+      Enable: true
+      Name: "&bElfe"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: EMERALD
+      Amount: 1
+      Slot: 15
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Pourquoi aider le Père Noël"
+        - "&7Lorsque je peux vous aider ?"
+
+    Santa-Claus:
+      Enable: true
+      Name: "&bPère Noël"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: REDSTONE
+      Amount: 1
+      Slot: 16
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Hohhohooho !"
+        - "&7Regarde qui est"
+        - "&7là !"
+
+    Body-Guard:
+      Enable: true
+      Name: "&bGarde du corps"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: POPPY
+      Amount: 1
+      Slot: 19
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Vous suit avec une"
+        - "&7rose dans sa main."

@@ -29,9 +29,9 @@ Balloons:
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
-      Rarity: COMMUN
+      Rarity: COMMON
 
-      Material: ROSE_RED
+      Material: POPPY
       Amount: 1
       Slot: 10
       Page: 1
@@ -46,7 +46,7 @@ Balloons:
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
-      Rarity: COMMUN
+      Rarity: COMMON
 
       Material: COD
       Amount: 1
@@ -63,7 +63,7 @@ Balloons:
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
-      Rarity: COMMUN
+      Rarity: COMMON
 
       Material: COOKED_PORKCHOP
       Amount: 1
@@ -98,7 +98,7 @@ Balloons:
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
-      Rarity: COMMUN
+      Rarity: COMMON
 
       Material: BONE
       Amount: 1
@@ -132,7 +132,7 @@ Balloons:
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
-      Rarity: COMMUN
+      Rarity: COMMON
 
       Material: EMERALD
       Amount: 1
@@ -166,7 +166,7 @@ Balloons:
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
-      Rarity: COMMUN
+      Rarity: COMMON
 
       Material: PRISMARINE_SHARD
       Amount: 1

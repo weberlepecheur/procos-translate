@@ -1,140 +1,134 @@
-Arrow-Effects:
+Balloons:
   Enable: true
   Fill-Empty-Slots: true
   Go-Back-Item: true
 
-  Material: ARROW
+  Material: LEAD
   Amount: 1
-  Slot: 12
-  Displayname: "&bEffets de flèches"
+  Slot: 16
+  Displayname: "&bBallons"
   Lore:
     - ""
-    - "&7Vos flèches vont désormais libérer"
-    - "&7des particules incroyables"
-    - "&7qui vont transpercer l'air."
+    - "&7Les ballons sont de collection"
+    - "&7Ils flottent au dessus de la tête"
+    - "&7partout où vous allez."
     - ""
     - "&3Vous possédez &b(current)&7/&b(maximum)"
     - ""
-    - "&7Clic gauche pour ouvrir le menu des effets de flèches"
-    - "&7Clic droit pour déséquiper ce type de cosmétique !"
+    - "&7Clic gauche ouvrir le menu des ballons !"
+    - "&7Clic droit pour retirer votre ballon !"
 
   Menu:
-    Title: "Effets de flèches"
+    Title: "Ballons"
     Size: 54
 
   Cosmetics:
-    Bloody-Arrows:
+    Calf:
       Enable: true
-      Name: "&bFlèches ensanglantées"
+      Name: "&bBallon veau"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: REDSTONE
+      Material: POPPY
       Amount: 1
       Slot: 10
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Des flèches trempées dans du sang empoisonné"
-        - "&7pour donner à vos ennemis"
-        - "&4une mort douloureuse."
+        - "&7Lait gratuit pour tout le monde !"
 
-    Candy-Cane-Arrows:
+    Kitten:
       Enable: true
-      Name: "&bFlèches de sucre d'orge"
+      Name: "&bBallon chaton"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: CACTUS_GREEN
+      Material: COD
       Amount: 1
       Slot: 11
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Vous avez beaucoup trop de bonbons ? Laissez nous"
-        - "&7en donner à vos ennemis."
+        - "&7Un mignon petit chaton plane."
 
-    Confetti-Arrows:
+    Mini-Pig:
       Enable: true
-      Name: "&bFlèches de confettis"
+      Name: "&bBallon Mini-Pig"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: MELON_SEEDS
+      Material: COOKED_PORKCHOP
       Amount: 1
       Slot: 12
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7On ne peut pas stopper ces incroyables couleurs"
-        - "&7qui planent dans les airs."
+        - "&7Qui veut d'un cochon en vol"
+        - "&7stationnaire autour de lui ?"
 
-    Enchanted-Arrows:
+    Mushroom-Cow:
       Enable: true
-      Name: "&bFlèches enchantées"
+      Name: "&bMushroom Cow Balloon"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: BOOK
+      Material: RED_MUSHROOM
       Amount: 1
       Slot: 13
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Ces flèches viennent d'un"
-        - "&7archer talentueux"
+        - "&7Another variant of a normal cow."
 
-    Flame-Arrows:
+    Puppy:
       Enable: true
-      Name: "&bFlèches enflammées"
+      Name: "&bBallon chiot"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: BLAZE_POWDER
+      Material: BONE
       Amount: 1
       Slot: 14
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Surprenez quelqu'un avec une flèche"
-        - "&7enflammée qui traversera leur coeur."
+        - "&7Wooff wooff..."
 
-    Frost-Lord-Arrows:
+    Rabbit:
       Enable: true
-      Name: "&bFlèches du seigneur du givre"
+      Name: "&bRabbit Balloon"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: SNOWBALL
+      Material: CARROT
       Amount: 1
       Slot: 15
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Apportez un souffle d'Hiver dans"
-        - "&7le vent de leur passage."
+        - "&7Your rabbit needs a carrot."
 
-    Green-Arrows:
+    Tiny-Villager:
       Enable: true
-      Name: "&bFlèches vertes"
+      Name: "&bBallon villageois"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
@@ -147,128 +141,128 @@ Arrow-Effects:
       Displayname: "(name)"
       Lore:
         - ""
-        - "&cLe rouge est égale à l'arrêt..."
-        - "&aLe vert est égal à la marche ?"
+        - "&7Votre propre marché flottant !"
 
-    Lava-Arrows:
+    Zombie:
       Enable: true
-      Name: "&bFlèches de lave"
+      Name: "&bZombie Balloon"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: LAVA_BUCKET
+      Material: ROTTEN_FLESH
       Amount: 1
       Slot: 19
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7OOOOOOOOUH TROOOOOP CHAUD !!!!"
+        - "&7Rotten flesh from the undead."
 
-    Love-Arrows:
+    Guardian:
       Enable: true
-      Name: "&bFlèches d'amour"
+      Name: "&bBallon guardien"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: ROSE_RED
+      Material: PRISMARINE_SHARD
       Amount: 1
       Slot: 20
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Donnez de l'amour à vos"
-        - "&7ennemis !"
+        - "&7Attention à ce qu'il ne vous gifle pas."
 
-    Magical-Arrows:
+    Disco:
       Enable: true
-      Name: "&bMagical Arrows"
+      Name: "&bBallon disco"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
-      Rarity: COMMON
+      Rarity: RARE
 
-      Material: PURPLE_DYE
+      Material: BLUE_STAINED_GLASS
       Amount: 1
       Slot: 21
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Maybe you are the magician here?"
+        - "&7Pourquoi avoir juste une couleur"
+        - "&7quand on peut les avoir toutes ?"
 
-    Music-Arrows:
+    Egg:
       Enable: true
-      Name: "&bFlèches musicales"
+      Name: "&bBallon oeuf"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: NOTE_BLOCK
+      Material: DRAGON_EGG
       Amount: 1
       Slot: 22
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7On a installé des haut-parleurs sur"
-        - "&7ces flèches, Cool hein ?"
+        - "&7Cet oeuf a été volé d'une autre "
+        - "&7dimension ! Et l'enderdragon ne"
+        - "&7le sait pas !"
 
-    Rain-Arrows:
+    Emerald:
       Enable: true
-      Name: "&bFlèches de pluie"
+      Name: "&bEmerald Balloon"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: WATER_BUCKET
+      Material: EMERALD_BLOCK
       Amount: 1
       Slot: 23
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Des flèches qui bénissent la pluie"
-        - "&7en Afrique"
+        - "&7Not everyone can afford an"
+        - "&7Emerald block."
 
-    Shadow-Arrows:
+    Explosive:
       Enable: true
-      Name: "&bFlèches sombres"
+      Name: "&bEgg Balloon"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: COAL
+      Material: TNT
       Amount: 1
       Slot: 24
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Laissez votre ombre suivre votre flèche"
+        - "&7This one may scare someone."
 
-    Sparkly-Arrows:
+    Pumpkin:
       Enable: true
-      Name: "&bSparkly Arrows"
+      Name: "&bBallon citrouille"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: FIREWORK_ROCKET
-      Data: 0
+      Material: PUMPKIN
       Amount: 1
       Slot: 25
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Arrow like firework."
+        - "&7Un costume d'Halloween"
+        - "&7digne de ce nom !"

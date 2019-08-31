@@ -1,0 +1,108 @@
+Banners:
+  Enable: true
+  Fill-Empty-Slots: true
+  Go-Back-Item: true
+
+  Material: WHITE_BANNER
+  Amount: 1
+  Slot: 50
+  Displayname: "&bBannières"
+  Lore:
+    - ""
+    - "&7Montrez que vous avez une bannière"
+    - "&7ÉPIQUE placée sur votre tête !"
+    - ""
+    - "&3Vous possédez &b(current)&7/&b(maximum)"
+    - ""
+    - "&7Clic gauche pour ouvrir le menu des bannières"
+    - "&7Clic droit pour retirer votre bannière actuelle"
+
+  Menu:
+    Title: "Bannières"
+    Size: 54
+
+  Cosmetics:
+    Pug:
+      Enable: true
+      Name: "&bPug"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: WHITE_BANNER
+      Amount: 1
+      Slot: 10
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Qui n'aime pas ça ?!"
+
+    Happy-Sheep:
+      Enable: true
+      Name: "&bMouton heureux"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: WHITE_BANNER
+      Amount: 1
+      Slot: 11
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Un mouton mignon... et duveteux... que demander de plus ?!"
+
+    Disco:
+      Enable: true
+      Name: "&bDisco"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: WHITE_BANNER
+      Amount: 1
+      Slot: 12
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Des couleurs magnifiques !"
+
+    The-United-States-Of-America:
+      Enable: true
+      Name: "&bLes États-Unis d'Amérique"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: WHITE_BANNER
+      Amount: 1
+      Slot: 13
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Obama, vous êtes où ?"
+
+    Sweden:
+      Enable: true
+      Name: "&bSuède"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: WHITE_BANNER
+      Amount: 1
+      Slot: 14
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7La bannière préférée de Notch, notre créateur !"

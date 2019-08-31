@@ -1,31 +1,31 @@
-Arrow-Effects:
+Death-Effects:
   Enable: true
   Fill-Empty-Slots: true
   Go-Back-Item: true
 
-  Material: ARROW
+  Material: SKELETON_SKULL
   Amount: 1
-  Slot: 12
-  Displayname: "&bEffets de flèches"
+  Slot: 14
+  Displayname: "&bEffets de mort"
   Lore:
     - ""
-    - "&7Vos flèches vont désormais libérer"
-    - "&7des particules incroyables"
-    - "&7qui vont transpercer l'air."
+    - "&7Votre mort sera désormais pleurée"
+    - "&7avec un magnifique hommage grâce à"
+    - "&7des particules"
     - ""
     - "&3Vous possédez &b(current)&7/&b(maximum)"
     - ""
-    - "&7Clic gauche pour ouvrir le menu des effets de flèches"
-    - "&7Clic droit pour déséquiper ce type de cosmétique !"
+    - "&7Clic gauche pour ouvrir le menu des effets de mort"
+    - "&7Clic droit pour retirer votre effet de mort actuelle !"
 
   Menu:
-    Title: "Effets de flèches"
+    Title: "Effets de mort"
     Size: 54
 
   Cosmetics:
-    Bloody-Arrows:
+    Bloody-Death:
       Enable: true
-      Name: "&bFlèches ensanglantées"
+      Name: "&bMort ensanglantée"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
@@ -38,31 +38,30 @@ Arrow-Effects:
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Des flèches trempées dans du sang empoisonné"
-        - "&7pour donner à vos ennemis"
-        - "&4une mort douloureuse."
+        - "&7Laissez le sang de votre corps exploser"
+        - "&7de colère lorsque vous mourrez !"
 
-    Candy-Cane-Arrows:
+    Candy-Cane-Remains:
       Enable: true
-      Name: "&bFlèches de sucre d'orge"
+      Name: "&bVestiges de sucre d'orge"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: CACTUS_GREEN
+      Material: GREEN_DYE
       Amount: 1
       Slot: 11
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Vous avez beaucoup trop de bonbons ? Laissez nous"
-        - "&7en donner à vos ennemis."
+        - "&7Partagez votre dernier bonbon à"
+        - "&7votre mort !"
 
-    Confetti-Arrows:
+    Confetti-Death:
       Enable: true
-      Name: "&bFlèches de confettis"
+      Name: "&bMort festive"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
@@ -75,12 +74,13 @@ Arrow-Effects:
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7On ne peut pas stopper ces incroyables couleurs"
-        - "&7qui planent dans les airs."
+        - "&7Quelqu'un célèbre votre mort."
+        - "&7Attendez..."
+        - "&7QUOI ?!"
 
-    Enchanted-Arrows:
+    Enchanted-Death:
       Enable: true
-      Name: "&bFlèches enchantées"
+      Name: "&bMort enchantée"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
@@ -93,30 +93,12 @@ Arrow-Effects:
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Ces flèches viennent d'un"
-        - "&7archer talentueux"
+        - "&7Une autre personne intelligente"
+        - "&7vient de mourir."
 
-    Flame-Arrows:
+    Fall-Of-The-Frost-Lord:
       Enable: true
-      Name: "&bFlèches enflammées"
-      Can-Be-Found: true
-      Purchasable: true
-      Cost: 2000
-      Rarity: COMMON
-
-      Material: BLAZE_POWDER
-      Amount: 1
-      Slot: 14
-      Page: 1
-      Displayname: "(name)"
-      Lore:
-        - ""
-        - "&7Surprenez quelqu'un avec une flèche"
-        - "&7enflammée qui traversera leur coeur."
-
-    Frost-Lord-Arrows:
-      Enable: true
-      Name: "&bFlèches du seigneur du givre"
+      Name: "&bLa chute du seigneur du givre"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
@@ -124,35 +106,71 @@ Arrow-Effects:
 
       Material: SNOWBALL
       Amount: 1
-      Slot: 15
+      Slot: 14
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Apportez un souffle d'Hiver dans"
-        - "&7le vent de leur passage."
+        - "&7Rah, ça va..."
+        - "&7...l'été ne dure que 3 mois !"
 
-    Green-Arrows:
+    Flame-Death:
       Enable: true
-      Name: "&bFlèches vertes"
+      Name: "&bMort enflammée"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
-      Material: EMERALD
+      Material: BLAZE_POWDER
+      Amount: 1
+      Slot: 15
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Laissez votre mort brûler"
+        - "&7en pièce."
+
+    Last-Love:
+      Enable: true
+      Name: "&bDernier amour"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: POPPY
       Amount: 1
       Slot: 16
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&cLe rouge est égale à l'arrêt..."
-        - "&aLe vert est égal à la marche ?"
+        - "&7Tu resteras toujours dans mon coeur,"
+        - "&7peu-importe ce que tu m'as fais."
 
-    Lava-Arrows:
+    Lightning-Death:
       Enable: true
-      Name: "&bFlèches de lave"
+      Name: "&bMort éléctrique"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: RARE
+
+      Material: POPPY
+      Amount: 1
+      Slot: 19
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Montrons à tout le monde comment le roi"
+        - "&7est réellement mort !"
+
+    Lava-Death:
+      Enable: true
+      Name: "&bMort de lave"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
@@ -160,38 +178,20 @@ Arrow-Effects:
 
       Material: LAVA_BUCKET
       Amount: 1
-      Slot: 19
-      Page: 1
-      Displayname: "(name)"
-      Lore:
-        - ""
-        - "&7OOOOOOOOUH TROOOOOP CHAUD !!!!"
-
-    Love-Arrows:
-      Enable: true
-      Name: "&bFlèches d'amour"
-      Can-Be-Found: true
-      Purchasable: true
-      Cost: 2000
-      Rarity: COMMON
-
-      Material: ROSE_RED
-      Amount: 1
       Slot: 20
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Donnez de l'amour à vos"
-        - "&7ennemis !"
+        - "&7OUH OUH OUUUUH TROP, BEAUCOUP TROP CHAUD"
 
-    Magical-Arrows:
+    Magical-Death:
       Enable: true
-      Name: "&bMagical Arrows"
+      Name: "&bMagical Death"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
-      Rarity: COMMON
+      Rarity: RARE
 
       Material: PURPLE_DYE
       Amount: 1
@@ -200,11 +200,11 @@ Arrow-Effects:
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Maybe you are the magician here?"
+        - "&7Cast the last spell you have."
 
-    Music-Arrows:
+    Musical-Death:
       Enable: true
-      Name: "&bFlèches musicales"
+      Name: "&bMort musicale"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
@@ -217,30 +217,12 @@ Arrow-Effects:
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7On a installé des haut-parleurs sur"
-        - "&7ces flèches, Cool hein ?"
+        - "&7Votre dernière chanson avant la mort,"
+        - "&7les prochaines seront faîtes avec Mozart."
 
-    Rain-Arrows:
+    Shadow-Death:
       Enable: true
-      Name: "&bFlèches de pluie"
-      Can-Be-Found: true
-      Purchasable: true
-      Cost: 2000
-      Rarity: COMMON
-
-      Material: WATER_BUCKET
-      Amount: 1
-      Slot: 23
-      Page: 1
-      Displayname: "(name)"
-      Lore:
-        - ""
-        - "&7Des flèches qui bénissent la pluie"
-        - "&7en Afrique"
-
-    Shadow-Arrows:
-      Enable: true
-      Name: "&bFlèches sombres"
+      Name: "&bMort sombre"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
@@ -248,27 +230,45 @@ Arrow-Effects:
 
       Material: COAL
       Amount: 1
-      Slot: 24
+      Slot: 23
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Laissez votre ombre suivre votre flèche"
+        - "&7Un peu de fumée et t'es"
+        - "&7mort !"
 
-    Sparkly-Arrows:
+    Sparkly-Death:
       Enable: true
-      Name: "&bSparkly Arrows"
+      Name: "&bSparkly Death"
       Can-Be-Found: true
       Purchasable: true
       Cost: 2000
       Rarity: COMMON
 
       Material: FIREWORK_ROCKET
-      Data: 0
+      Amount: 1
+      Slot: 24
+      Page: 1
+      Displayname: "(name)"
+      Lore:
+        - ""
+        - "&7Die in a nice way."
+
+    Wet-Death:
+      Enable: true
+      Name: "&bMort mouillée"
+      Can-Be-Found: true
+      Purchasable: true
+      Cost: 2000
+      Rarity: COMMON
+
+      Material: WATER_BUCKET
       Amount: 1
       Slot: 25
       Page: 1
       Displayname: "(name)"
       Lore:
         - ""
-        - "&7Arrow like firework."
+        - "&7Une autre pauvre personne"
+        - "&7est morte."

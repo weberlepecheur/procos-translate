@@ -50,7 +50,7 @@ Arrow-Effects:
       Cost: 2000
       Rarity: COMMON
 
-      Material: CACTUS_GREEN
+      Material: GREEN_DYE
       Amount: 1
       Slot: 11
       Page: 1
@@ -175,7 +175,7 @@ Arrow-Effects:
       Cost: 2000
       Rarity: COMMON
 
-      Material: ROSE_RED
+      Material: POPPY
       Amount: 1
       Slot: 20
       Page: 1
